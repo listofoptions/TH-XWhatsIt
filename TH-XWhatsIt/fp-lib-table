@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name promicro)(type KiCad)(uri C:/Users/jamahoney/Dropbox/projects/TH-XWhatsIt/libraries/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
+  (lib (name TH-XWhatsIt)(type KiCad)(uri C:/Users/jamahoney/Dropbox/projects/TH-XWhatsIt/libraries/TH-XWhatsIt.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+January 31St, 2020:
+    user: Listofoptions
+        done:
+            initial commit, completed main controller board and schematic
+        todo:
+            plugboard wiring and socket / connector positioning
+            physical hardware testing
+            firmware 
+            firmware testing
