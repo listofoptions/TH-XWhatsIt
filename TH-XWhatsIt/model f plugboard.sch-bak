@@ -186,4 +186,17 @@ Text HLabel 5200 1450 0    50   UnSpc ~ 0
 MFGROUND
 Text Notes 3950 7750 0    50   ~ 0
 Copyright Rainy Day Plans.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable\nconditions
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5E39F8A0
+P 5200 4950
+F 0 "H2" H 5300 4999 50  0000 L CNN
+F 1 "GROUND STRAP" H 5300 4908 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5200 4950 50  0001 C CNN
+F 3 "~" H 5200 4950 50  0001 C CNN
+	1    5200 4950
+	1    0    0    -1  
+$EndComp
+Text HLabel 5200 5050 3    50   UnSpc ~ 0
+MFGROUND
 $EndSCHEMATC

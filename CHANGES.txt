@@ -23,3 +23,20 @@ Febuary 3rd, 2020
             physical hardware testing
             firmware
             firmware testing
+Febuary 4th, 2020
+    user: listofoptions
+        done:
+            added ground strap points to plugboards, and positioned them to
+            align with the ground strap on the main board
+            
+            displaywriter plugboard completely wired
+            
+            added cutouts in plugboards for expasion header wiring
+        todo:
+            maybe add more grounding straps to aid in mechanical strength
+            (i intend to use metal standoffs to connect the plugboards and 
+            main board)
+            
+            physical hardware testing
+            firmware
+            firmware testing

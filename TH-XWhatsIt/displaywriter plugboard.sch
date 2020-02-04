@@ -230,4 +230,17 @@ Text HLabel 6975 3475 2    50   UnSpc ~ 0
 DWGROUND
 Text HLabel 6975 3875 2    50   UnSpc ~ 0
 DWGROUND
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5E3A0C5C
+P 6775 4825
+F 0 "H4" H 6875 4874 50  0000 L CNN
+F 1 "GROUND STRAP" H 6875 4783 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6775 4825 50  0001 C CNN
+F 3 "~" H 6775 4825 50  0001 C CNN
+	1    6775 4825
+	1    0    0    -1  
+$EndComp
+Text HLabel 6775 4925 3    50   UnSpc ~ 0
+DWGROUND
 $EndSCHEMATC
