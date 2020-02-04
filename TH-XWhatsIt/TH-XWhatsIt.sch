@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:TH-XWhatsIt-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -6,7 +7,7 @@ encoding utf-8
 Sheet 1 4
 Title "THT-XWhatsIt combined beamspring and model f controller"
 Date "2020-01-31"
-Rev "0.0.1"
+Rev "0.0.2"
 Comp "Rainy Day Plans"
 Comment1 ""
 Comment2 ""
@@ -288,9 +289,9 @@ Text GLabel 8450 3325 0    50   Input ~ 0
 ROW4
 Text GLabel 8450 3725 0    50   Input ~ 0
 ROW5
-Text GLabel 9850 3125 2    50   Input ~ 0
-ROW6
 Text GLabel 8450 3825 0    50   Input ~ 0
+ROW6
+Text GLabel 9850 3125 2    50   Input ~ 0
 ROW7
 Text GLabel 9850 3225 2    50   Input ~ 0
 ROW8
@@ -574,11 +575,11 @@ Text GLabel 3500 2775 2    50   Output ~ 0
 ROW4
 Text GLabel 3500 5275 2    50   Output ~ 0
 ROW5
-Text GLabel 3500 4675 2    50   Output ~ 0
+Text GLabel 3500 6475 2    50   Output ~ 0
 ROW6
 Text GLabel 1150 4575 0    50   Input ~ 0
 SENSE5
-Text GLabel 1150 5175 0    50   Input ~ 0
+Text GLabel 1150 5775 0    50   Input ~ 0
 SENSE6
 $Comp
 L Comparator:LM339 U6
@@ -783,7 +784,7 @@ Wire Wire Line
 	1150 5175 1525 5175
 Wire Wire Line
 	1525 5175 1525 4675
-Text GLabel 1150 5775 0    50   Input ~ 0
+Text GLabel 1150 5175 0    50   Input ~ 0
 SENSE7
 Wire Wire Line
 	1150 5775 1425 5775
@@ -835,7 +836,7 @@ Wire Wire Line
 Connection ~ 1425 5775
 Text GLabel 3500 5875 2    50   Output ~ 0
 ROW8
-Text GLabel 3500 6475 2    50   Output ~ 0
+Text GLabel 3500 4675 2    50   Output ~ 0
 ROW7
 Wire Wire Line
 	2000 2075 1625 2075
@@ -1440,9 +1441,9 @@ Text GLabel 7050 4225 0    50   Output ~ 0
 SENSE4
 Text GLabel 7050 4325 0    50   Output ~ 0
 SENSE5
-Text GLabel 7050 4425 0    50   Output ~ 0
-SENSE6
 Text GLabel 7050 4525 0    50   Output ~ 0
+SENSE6
+Text GLabel 7050 4425 0    50   Output ~ 0
 SENSE7
 Text GLabel 7050 4625 0    50   Output ~ 0
 SENSE8

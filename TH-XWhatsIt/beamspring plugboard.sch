@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:TH-XWhatsIt-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -147,13 +148,13 @@ NoConn ~ 2700 5050
 NoConn ~ 2700 4950
 NoConn ~ 2700 4850
 NoConn ~ 2700 4750
-Text HLabel 2700 4350 0    50   BiDi ~ 0
-BSSENSE1
-Text HLabel 2700 4450 0    50   BiDi ~ 0
-BSSENSE2
-Text HLabel 2700 4550 0    50   BiDi ~ 0
-BSSENSE3
 Text HLabel 2700 4650 0    50   BiDi ~ 0
+BSSENSE1
+Text HLabel 2700 4550 0    50   BiDi ~ 0
+BSSENSE2
+Text HLabel 2700 4450 0    50   BiDi ~ 0
+BSSENSE3
+Text HLabel 2700 4350 0    50   BiDi ~ 0
 BSSENSE4
 Text HLabel 5000 3800 0    50   BiDi ~ 0
 BSSENSE1

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:TH-XWhatsIt-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -123,21 +124,21 @@ Text HLabel 5200 2950 0    50   Input ~ 0
 MFCOL15
 Text HLabel 5200 3050 0    50   Input ~ 0
 MFCOL16
-Text HLabel 2850 4500 0    50   BiDi ~ 0
-MFSENSE1
-Text HLabel 2850 4600 0    50   BiDi ~ 0
-MFSENSE2
-Text HLabel 2850 4700 0    50   BiDi ~ 0
-MFSENSE3
-Text HLabel 2850 4800 0    50   BiDi ~ 0
-MFSENSE4
-Text HLabel 2850 4900 0    50   BiDi ~ 0
-MFSENSE5
-Text HLabel 2850 5000 0    50   BiDi ~ 0
-MFSENSE6
-Text HLabel 2850 5100 0    50   BiDi ~ 0
-MFSENSE7
 Text HLabel 2850 5200 0    50   BiDi ~ 0
+MFSENSE1
+Text HLabel 2850 5100 0    50   BiDi ~ 0
+MFSENSE2
+Text HLabel 2850 5000 0    50   BiDi ~ 0
+MFSENSE3
+Text HLabel 2850 4900 0    50   BiDi ~ 0
+MFSENSE4
+Text HLabel 2850 4800 0    50   BiDi ~ 0
+MFSENSE5
+Text HLabel 2850 4700 0    50   BiDi ~ 0
+MFSENSE6
+Text HLabel 2850 4600 0    50   BiDi ~ 0
+MFSENSE7
+Text HLabel 2850 4500 0    50   BiDi ~ 0
 MFSENSE8
 Text HLabel 5200 3350 0    50   BiDi ~ 0
 MFSENSE1

@@ -7,3 +7,19 @@ January 31St, 2020:
             physical hardware testing
             firmware 
             firmware testing
+
+Febuary 3rd, 2020
+    user: Listofoptions
+        done:
+            moved setpoint decoupler cap to hopefully lower interferance with
+            relatively high frequency output from the comparitors
+            
+            connector positioning for plugboard complete
+            
+            moved sense connector to allow better placement of corresponding
+            socket on plugboards (sense traces needed more room on plugboards)
+        todo:
+            displaywriter plugboard wiring
+            physical hardware testing
+            firmware
+            firmware testing
