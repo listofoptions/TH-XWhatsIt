@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:TH-XWhatsIt-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -245,8 +244,6 @@ Wire Wire Line
 Connection ~ 10275 1400
 Wire Wire Line
 	10275 1400 10275 1425
-Text GLabel 10600 1400 2    50   Output ~ 0
-SETPOINT
 Wire Wire Line
 	1925 6575 1150 6575
 Connection ~ 1925 6575
@@ -255,7 +252,7 @@ SETPOINT
 Text GLabel 9850 3525 2    50   Output ~ 0
 CLOCK
 $Comp
-L promicro:ProMicro U7
+L TH-XWhatsIt-rescue:ProMicro-promicro U7
 U 1 1 5E3248FF
 P 9150 3475
 F 0 "U7" H 9150 4512 60  0000 C CNN
@@ -736,17 +733,6 @@ F 3 "~" H 9825 1875 50  0001 C CNN
 	1    9825 1875
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5E35E372
-P 10575 1525
-F 0 "C2" H 10725 1500 50  0000 C CNN
-F 1 "10U" H 10725 1600 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 10575 1525 50  0001 C CNN
-F 3 "~" H 10575 1525 50  0001 C CNN
-	1    10575 1525
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	8975 925  8975 1000
 Wire Wire Line
@@ -767,13 +753,6 @@ F 3 "~" H 8325 925 50  0001 C CNN
 	1    8325 925 
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10575 1425 10575 1400
-Wire Wire Line
-	10575 1400 10600 1400
-Connection ~ 10575 1400
-Wire Wire Line
-	10275 1400 10575 1400
 Text GLabel 1150 6375 0    50   Input ~ 0
 SENSE8
 Wire Wire Line
@@ -1124,17 +1103,6 @@ F 1 "GNDD" H 5279 5670 50  0000 C CNN
 F 2 "" H 5275 5825 50  0001 C CNN
 F 3 "" H 5275 5825 50  0001 C CNN
 	1    5275 5825
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR0127
-U 1 1 5E834F91
-P 10575 1625
-F 0 "#PWR0127" H 10575 1375 50  0001 C CNN
-F 1 "GNDA" H 10580 1452 50  0000 C CNN
-F 2 "" H 10575 1625 50  0001 C CNN
-F 3 "" H 10575 1625 50  0001 C CNN
-	1    10575 1625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1498,4 +1466,8 @@ Text GLabel 6950 5325 0    50   BiDi ~ 0
 HEADER1
 Text Notes 3950 7750 0    50   ~ 0
 Copyright Rainy Day Plans.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable\nconditions
+Text GLabel 10600 1400 2    50   Output ~ 0
+SETPOINT
+Wire Wire Line
+	10275 1400 10600 1400
 $EndSCHEMATC
