@@ -191,7 +191,7 @@ U 1 1 5E39F8A0
 P 5200 4950
 F 0 "H2" H 5300 4999 50  0000 L CNN
 F 1 "GROUND STRAP" H 5300 4908 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5200 4950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 5200 4950 50  0001 C CNN
 F 3 "~" H 5200 4950 50  0001 C CNN
 	1    5200 4950
 	1    0    0    -1  

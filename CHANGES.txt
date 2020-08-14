@@ -40,3 +40,14 @@ Febuary 4th, 2020
             physical hardware testing
             firmware
             firmware testing
+August 14th, 2020
+    user: listofoptions
+        done:
+            complete smd rework 
+        todo:
+            fine tune the castelations
+            add cutouts for throughhole components to pigybacking plugboards
+            rewire and resize plugboards for max compatibility
+            physical hardware testing
+            firmware
+            firmware testing

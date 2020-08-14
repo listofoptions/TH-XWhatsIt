@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 3
 Title "Displaywriter plugboard to convert controller signals"
 Date "2020-01-31"
 Rev "0.0.2"
@@ -14,29 +14,15 @@ Comment3 ""
 Comment4 "Licenced under CERN OHL Version 1.2"
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x27 J?
-U 1 1 5E97F100
-P 3050 2650
-AR Path="/5E97F100" Ref="J?"  Part="1" 
-AR Path="/5E97697F/5E97F100" Ref="J?"  Part="1" 
-AR Path="/5E995B14/5E97F100" Ref="J9"  Part="1" 
-F 0 "J9" H 3130 2692 50  0000 L CNN
-F 1 "DISPLAYWRITER PLUGBOARD COLUMNS" H 3130 2601 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x27_P2.54mm_Vertical" H 3050 2650 50  0001 C CNN
-F 3 "~" H 3050 2650 50  0001 C CNN
-	1    3050 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x12 J?
 U 1 1 5E97F11D
 P 3050 4800
 AR Path="/5E97F11D" Ref="J?"  Part="1" 
 AR Path="/5E97697F/5E97F11D" Ref="J?"  Part="1" 
-AR Path="/5E995B14/5E97F11D" Ref="J11"  Part="1" 
-F 0 "J11" H 3130 4792 50  0000 L CNN
-F 1 "DISPLAYWRITER PLUGBOARD ROWS" H 3130 4701 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 3050 4800 50  0001 C CNN
+AR Path="/5E995B14/5E97F11D" Ref="J9"  Part="1" 
+F 0 "J9" H 3130 4792 50  0000 L CNN
+F 1 "EXPANSION DISPLAYWRITER" H 3130 4701 50  0000 L CNN
+F 2 "TH-XWhatsIt:12-pin-castelated-connector" H 3050 4800 50  0001 C CNN
 F 3 "~" H 3050 4800 50  0001 C CNN
 	1    3050 4800
 	1    0    0    -1  
@@ -47,46 +33,6 @@ NoConn ~ 6475 3775
 NoConn ~ 6475 1875
 NoConn ~ 6475 1975
 NoConn ~ 6475 2075
-Text HLabel 2850 1550 0    50   Output ~ 0
-DWCOL1
-Text HLabel 2850 1650 0    50   Output ~ 0
-DWCOL2
-Text HLabel 2850 1750 0    50   Output ~ 0
-DWCOL3
-Text HLabel 2850 1850 0    50   Output ~ 0
-DWCOL4
-Text HLabel 2850 1950 0    50   Output ~ 0
-DWCOL5
-Text HLabel 2850 2050 0    50   Output ~ 0
-DWCOL6
-Text HLabel 2850 2150 0    50   Output ~ 0
-DWCOL7
-Text HLabel 2850 2250 0    50   Output ~ 0
-DWCOL8
-Text HLabel 2850 2350 0    50   Output ~ 0
-DWCOL9
-Text HLabel 2850 2450 0    50   Output ~ 0
-DWCOL10
-Text HLabel 2850 2550 0    50   Output ~ 0
-DWCOL11
-Text HLabel 2850 2650 0    50   Output ~ 0
-DWCOL12
-Text HLabel 2850 4500 0    50   BiDi ~ 0
-DWSENSE1
-Text HLabel 2850 4600 0    50   BiDi ~ 0
-DWSENSE2
-Text HLabel 2850 4700 0    50   BiDi ~ 0
-DWSENSE3
-Text HLabel 2850 4800 0    50   BiDi ~ 0
-DWSENSE4
-Text HLabel 2850 5200 0    50   BiDi ~ 0
-DWSENSE5
-Text HLabel 2850 5100 0    50   BiDi ~ 0
-DWSENSE6
-Text HLabel 2850 5000 0    50   BiDi ~ 0
-DWSENSE7
-Text HLabel 2850 4900 0    50   BiDi ~ 0
-DWSENSE8
 Text HLabel 6475 1375 0    50   BiDi ~ 0
 DWSENSE1
 Text HLabel 6475 1475 0    50   BiDi ~ 0
@@ -95,13 +41,13 @@ Text HLabel 6475 1575 0    50   BiDi ~ 0
 DWSENSE3
 Text HLabel 6475 1675 0    50   BiDi ~ 0
 DWSENSE4
-Text HLabel 6475 3975 0    50   BiDi ~ 0
-DWSENSE5
-Text HLabel 6475 4075 0    50   BiDi ~ 0
-DWSENSE6
-Text HLabel 6475 4175 0    50   BiDi ~ 0
-DWSENSE7
 Text HLabel 6475 4275 0    50   BiDi ~ 0
+DWSENSE5
+Text HLabel 6475 4175 0    50   BiDi ~ 0
+DWSENSE6
+Text HLabel 6475 4075 0    50   BiDi ~ 0
+DWSENSE7
+Text HLabel 6475 3975 0    50   BiDi ~ 0
 DWSENSE8
 Text HLabel 6475 2275 0    50   Input ~ 0
 DWCOL1
@@ -127,13 +73,13 @@ Text HLabel 6475 3275 0    50   Input ~ 0
 DWCOL11
 Text HLabel 6475 3375 0    50   Input ~ 0
 DWCOL12
-Text HLabel 2850 1350 0    50   UnSpc ~ 0
+Text HLabel 2850 1125 0    50   UnSpc ~ 0
 DWGROUND
-Text HLabel 2850 1450 0    50   UnSpc ~ 0
+Text HLabel 2850 1225 0    50   UnSpc ~ 0
 DWGROUND
-Text HLabel 2850 3850 0    50   UnSpc ~ 0
+Text HLabel 2850 3925 0    50   UnSpc ~ 0
 DWGROUND
-Text HLabel 2850 3950 0    50   UnSpc ~ 0
+Text HLabel 2850 4025 0    50   UnSpc ~ 0
 DWGROUND
 Text HLabel 2850 4300 0    50   UnSpc ~ 0
 DWGROUND
@@ -151,95 +97,88 @@ Text HLabel 6475 3475 0    50   UnSpc ~ 0
 DWGROUND
 Text HLabel 6475 3875 0    50   UnSpc ~ 0
 DWGROUND
-NoConn ~ 2850 2750
-NoConn ~ 2850 2850
-NoConn ~ 2850 2950
-NoConn ~ 2850 3050
-NoConn ~ 2850 3150
-NoConn ~ 2850 3250
-NoConn ~ 2850 3350
-NoConn ~ 2850 3450
-NoConn ~ 2850 3550
-NoConn ~ 2850 3650
-NoConn ~ 2850 3750
 Text Notes 3950 7750 0    50   ~ 0
 Copyright Rainy Day Plans.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable\nconditions
+Text HLabel 2850 3825 0    50   BiDi ~ 0
+DWSENSE1
+Text HLabel 2850 3725 0    50   BiDi ~ 0
+DWSENSE2
+Text HLabel 2850 3625 0    50   BiDi ~ 0
+DWSENSE3
+Text HLabel 2850 3525 0    50   BiDi ~ 0
+DWSENSE4
+Text HLabel 2850 3425 0    50   BiDi ~ 0
+DWSENSE5
+Text HLabel 2850 3325 0    50   BiDi ~ 0
+DWSENSE6
+Text HLabel 2850 3225 0    50   BiDi ~ 0
+DWSENSE7
+Text HLabel 2850 3125 0    50   BiDi ~ 0
+DWSENSE8
+Text HLabel 2850 2925 0    50   UnSpc ~ 0
+DWGROUND
+Text HLabel 2850 3025 0    50   UnSpc ~ 0
+DWGROUND
 $Comp
-L Connector_Generic:Conn_02x30_Counter_Clockwise J10
-U 1 1 5E4284EA
+L Connector_Generic:Conn_01x30 J?
+U 1 1 5F5BFC0E
+P 3050 2625
+AR Path="/5F5BFC0E" Ref="J?"  Part="1" 
+AR Path="/5E995B14/5F5BFC0E" Ref="J7"  Part="1" 
+F 0 "J7" H 3130 2617 50  0000 L CNN
+F 1 "EXPANSION DISPLAYWRITER" H 3130 2526 50  0000 L CNN
+F 2 "TH-XWhatsIt:30-pin-castelated-connector" H 3050 2625 50  0001 C CNN
+F 3 "~" H 3050 2625 50  0001 C CNN
+	1    3050 2625
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x30 J?
+U 1 1 5F5CA487
 P 6675 2775
-F 0 "J10" H 6725 4392 50  0000 C CNN
-F 1 "DISPLAYWRITER PLUGBOARD CONNECTOR" H 6725 4301 50  0000 C CNN
-F 2 "TH-XWhatsIt:DIP-60_155_ELL" H 6675 2775 50  0001 C CNN
+AR Path="/5F5CA487" Ref="J?"  Part="1" 
+AR Path="/5E995B14/5F5CA487" Ref="J8"  Part="1" 
+F 0 "J8" H 6755 2767 50  0000 L CNN
+F 1 "DISPLAYWRITER CONNECTOR" H 6755 2676 50  0000 L CNN
+F 2 "TH-XWhatsIt:30-pin-universal-beamspring-connector" H 6675 2775 50  0001 C CNN
 F 3 "~" H 6675 2775 50  0001 C CNN
 	1    6675 2775
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6975 3575
-NoConn ~ 6975 3675
-NoConn ~ 6975 3775
-NoConn ~ 6975 1875
-NoConn ~ 6975 1975
-NoConn ~ 6975 2075
-Text HLabel 6975 1375 2    50   BiDi ~ 0
-DWSENSE1
-Text HLabel 6975 1475 2    50   BiDi ~ 0
-DWSENSE2
-Text HLabel 6975 1575 2    50   BiDi ~ 0
-DWSENSE3
-Text HLabel 6975 1675 2    50   BiDi ~ 0
-DWSENSE4
-Text HLabel 6975 3975 2    50   BiDi ~ 0
-DWSENSE5
-Text HLabel 6975 4075 2    50   BiDi ~ 0
-DWSENSE6
-Text HLabel 6975 4175 2    50   BiDi ~ 0
-DWSENSE7
-Text HLabel 6975 4275 2    50   BiDi ~ 0
-DWSENSE8
-Text HLabel 6975 2275 2    50   Input ~ 0
-DWCOL1
-Text HLabel 6975 2375 2    50   Input ~ 0
-DWCOL2
-Text HLabel 6975 2475 2    50   Input ~ 0
-DWCOL3
-Text HLabel 6975 2575 2    50   Input ~ 0
-DWCOL4
-Text HLabel 6975 2675 2    50   Input ~ 0
-DWCOL5
-Text HLabel 6975 2775 2    50   Input ~ 0
-DWCOL6
-Text HLabel 6975 2875 2    50   Input ~ 0
-DWCOL7
-Text HLabel 6975 2975 2    50   Input ~ 0
-DWCOL8
-Text HLabel 6975 3075 2    50   Input ~ 0
-DWCOL9
-Text HLabel 6975 3175 2    50   Input ~ 0
-DWCOL10
-Text HLabel 6975 3275 2    50   Input ~ 0
-DWCOL11
-Text HLabel 6975 3375 2    50   Input ~ 0
+NoConn ~ 2850 4500
+NoConn ~ 2850 4600
+NoConn ~ 2850 4700
+NoConn ~ 2850 4800
+NoConn ~ 2850 4900
+NoConn ~ 2850 5000
+NoConn ~ 2850 5100
+NoConn ~ 2850 5200
+Text HLabel 2850 1725 0    50   Output ~ 0
 DWCOL12
-Text HLabel 6975 1775 2    50   UnSpc ~ 0
-DWGROUND
-Text HLabel 6975 2175 2    50   UnSpc ~ 0
-DWGROUND
-Text HLabel 6975 3475 2    50   UnSpc ~ 0
-DWGROUND
-Text HLabel 6975 3875 2    50   UnSpc ~ 0
-DWGROUND
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5E3A0C5C
-P 6775 4825
-F 0 "H4" H 6875 4874 50  0000 L CNN
-F 1 "GROUND STRAP" H 6875 4783 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6775 4825 50  0001 C CNN
-F 3 "~" H 6775 4825 50  0001 C CNN
-	1    6775 4825
-	1    0    0    -1  
-$EndComp
-Text HLabel 6775 4925 3    50   UnSpc ~ 0
-DWGROUND
+Text HLabel 2850 1825 0    50   Output ~ 0
+DWCOL11
+Text HLabel 2850 1925 0    50   Output ~ 0
+DWCOL10
+Text HLabel 2850 2025 0    50   Output ~ 0
+DWCOL9
+Text HLabel 2850 2125 0    50   Output ~ 0
+DWCOL8
+Text HLabel 2850 2225 0    50   Output ~ 0
+DWCOL7
+Text HLabel 2850 2325 0    50   Output ~ 0
+DWCOL6
+Text HLabel 2850 2425 0    50   Output ~ 0
+DWCOL5
+Text HLabel 2850 2525 0    50   Output ~ 0
+DWCOL4
+Text HLabel 2850 2625 0    50   Output ~ 0
+DWCOL3
+Text HLabel 2850 2725 0    50   Output ~ 0
+DWCOL2
+Text HLabel 2850 2825 0    50   Output ~ 0
+DWCOL1
+NoConn ~ 2850 1325
+NoConn ~ 2850 1425
+NoConn ~ 2850 1525
+NoConn ~ 2850 1625
 $EndSCHEMATC
