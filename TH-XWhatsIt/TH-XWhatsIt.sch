@@ -1105,7 +1105,7 @@ U 1 1 5EA58512
 P 7150 5375
 F 0 "J3" H 7200 5692 50  0000 C CNN
 F 1 "EXPANSION HEADER" H 7200 5601 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 7150 5375 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7150 5375 50  0001 C CNN
 F 3 "~" H 7150 5375 50  0001 C CNN
 	1    7150 5375
 	1    0    0    -1  
