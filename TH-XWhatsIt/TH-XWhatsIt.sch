@@ -186,7 +186,7 @@ NoConn ~ 9850 2725
 NoConn ~ 9850 2925
 Text GLabel 8450 3825 0    50   Input ~ 0
 ROW1
-Text GLabel 8450 3625 0    50   Input ~ 0
+Text GLabel 8450 3325 0    50   Input ~ 0
 ROW2
 Text GLabel 8450 3725 0    50   Input ~ 0
 ROW3
@@ -194,7 +194,7 @@ Text GLabel 8450 3525 0    50   Input ~ 0
 ROW4
 Text GLabel 8450 3425 0    50   Input ~ 0
 ROW5
-Text GLabel 8450 3325 0    50   Input ~ 0
+Text GLabel 8450 3625 0    50   Input ~ 0
 ROW6
 Text GLabel 8450 3225 0    50   Input ~ 0
 ROW7
