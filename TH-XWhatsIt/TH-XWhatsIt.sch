@@ -183,7 +183,6 @@ SETPOINT
 Text GLabel 9850 3525 2    50   Output ~ 0
 CLOCK
 NoConn ~ 9850 2725
-NoConn ~ 9850 2925
 Text GLabel 8450 3825 0    50   Input ~ 0
 ROW1
 Text GLabel 8450 3325 0    50   Input ~ 0
@@ -1458,4 +1457,51 @@ F 3 "" H 9850 3825 50  0001 C CNN
 $EndComp
 Text Notes 9675 4475 0    50   ~ 0
 NOTE1: pin B3 is used to differentiate\nfrom the original TH Xwhatsit design\n\nNOTE2: pin B6 can also be an ADC\ninput, so we may use it in the\nfuture to determine board version\nby adding a voltage divider to this pin.
+$Comp
+L power:GNDD #PWR0108
+U 1 1 5F3F2027
+P 9050 4300
+F 0 "#PWR0108" H 9050 4050 50  0001 C CNN
+F 1 "GNDD" V 9054 4190 50  0000 R CNN
+F 2 "" H 9050 4300 50  0001 C CNN
+F 3 "" H 9050 4300 50  0001 C CNN
+	1    9050 4300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8550 4300 0    50   Output ~ 0
+RST
+Text GLabel 9850 2925 2    50   Input ~ 0
+RST
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F4075C4
+P 8800 4300
+F 0 "SW1" H 8800 4585 50  0000 C CNN
+F 1 "SW_Push" H 8800 4494 50  0000 C CNN
+F 2 "TH-XWhatsIt:PadsToShort" H 8800 4500 50  0001 C CNN
+F 3 "" H 8800 4500 50  0001 C CNN
+	1    8800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5F44B2D2
+P 8800 4675
+F 0 "SW2" H 8800 4960 50  0000 C CNN
+F 1 "SW_Push" H 8800 4869 50  0000 C CNN
+F 2 "TH-XWhatsIt:PadsToShort" H 8800 4875 50  0001 C CNN
+F 3 "" H 8800 4875 50  0001 C CNN
+	1    8800 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 4300 8600 4675
+Wire Wire Line
+	9000 4675 9000 4300
+Connection ~ 9000 4300
+Wire Wire Line
+	9000 4300 9050 4300
+Wire Wire Line
+	8600 4300 8550 4300
+Connection ~ 8600 4300
 $EndSCHEMATC
