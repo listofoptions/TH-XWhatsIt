@@ -51,14 +51,6 @@ Text HLabel 2700 1725 0    50   Output ~ 0
 BSCOL11
 Text HLabel 2700 1625 0    50   Output ~ 0
 BSCOL12
-Text HLabel 2700 1525 0    50   Output ~ 0
-BSCOL13
-Text HLabel 2700 1425 0    50   Output ~ 0
-BSCOL14
-Text HLabel 2700 1325 0    50   Output ~ 0
-BSCOL15
-Text HLabel 2700 1225 0    50   Output ~ 0
-BSCOL16
 Text HLabel 2700 4950 0    50   Output ~ 0
 BSCOL17
 Text HLabel 2700 4850 0    50   Output ~ 0
@@ -157,7 +149,6 @@ Text HLabel 5000 1200 0    50   UnSpc ~ 0
 BSGROUND
 Text Notes 3950 7750 0    50   ~ 0
 Copyright Rainy Day Plans.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable\nconditions
-NoConn ~ 2700 5050
 Text HLabel 2700 2825 0    50   UnSpc ~ 0
 BSGROUND
 Text HLabel 2700 2925 0    50   UnSpc ~ 0
@@ -192,4 +183,13 @@ NoConn ~ 2700 3025
 NoConn ~ 2700 3125
 NoConn ~ 2700 3225
 NoConn ~ 2700 3325
+Text HLabel 2700 1325 0    50   Output ~ 0
+BSCOL15
+Text HLabel 2700 1425 0    50   Output ~ 0
+BSCOL14
+Text HLabel 2700 1525 0    50   Output ~ 0
+BSCOL13
+Text HLabel 2700 5050 0    50   Output ~ 0
+BSCOL16
+NoConn ~ 2700 1225
 $EndSCHEMATC
