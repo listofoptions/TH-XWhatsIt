@@ -184,17 +184,6 @@ Text GLabel 1150 6575 0    50   Input ~ 0
 SETPOINT
 Text GLabel 9850 3525 2    50   Output ~ 0
 CLOCK
-$Comp
-L TH-XWhatsIt-rescue:ProMicro-promicro U5
-U 1 1 5E3248FF
-P 9150 3475
-F 0 "U5" H 9150 4512 60  0000 C CNN
-F 1 "ProMicro" H 9150 4406 60  0000 C CNN
-F 2 "promicro:ProMicro" H 9250 2425 60  0001 C CNN
-F 3 "" H 9250 2425 60  0000 C CNN
-	1    9150 3475
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9850 2725
 NoConn ~ 9850 2925
 Text GLabel 8450 3825 0    50   Input ~ 0
@@ -1480,4 +1469,15 @@ Wire Wire Line
 	2600 5275 3500 5275
 Wire Wire Line
 	2600 6475 3500 6475
+$Comp
+L promicro:ProMicro U5
+U 1 1 5E3248FF
+P 9150 3475
+F 0 "U5" H 9150 4512 60  0000 C CNN
+F 1 "ProMicro" H 9150 4406 60  0000 C CNN
+F 2 "promicro:ProMicro" H 9250 2425 60  0001 C CNN
+F 3 "" H 9250 2425 60  0000 C CNN
+	1    9150 3475
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

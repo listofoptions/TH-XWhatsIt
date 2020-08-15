@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name promicro)(type Legacy)(uri ../libraries/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
-  (lib (name TH-XWhatsIt-rescue)(type Legacy)(uri TH-XWhatsIt-rescue.lib)(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/../libraries/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
 )
