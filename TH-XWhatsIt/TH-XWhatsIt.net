@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/andrew/cap/TH-XWhatsIt_smd/TH-XWhatsIt/TH-XWhatsIt.sch)
-    (date "Sat Aug 15 22:09:12 2020")
+    (date "Sun Aug 16 00:02:14 2020")
     (tool "Eeschema 5.1.6+dfsg1-1~bpo10+1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -267,7 +267,7 @@
       (tstamp 5F5BFC0E))
     (comp (ref J8)
       (value "DISPLAYWRITER CONNECTOR")
-      (footprint TH-XWhatsIt:30-pin-universal-beamspring-connector)
+      (footprint TH-XWhatsIt:30-pin-universal-displaywriter-connector_v2)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x30) (description "Generic connector, single row, 01x30, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names "/displaywriter plugboard/") (tstamps /5E995B14/))
