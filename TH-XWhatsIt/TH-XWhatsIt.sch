@@ -101,8 +101,6 @@ Text GLabel 4875 1675 0    50   Input ~ 0
 LOADCOL
 Text GLabel 4875 1375 0    50   Input ~ 0
 CLOCK
-Text GLabel 4875 1775 0    50   Input ~ 0
-~OE
 Wire Wire Line
 	2000 4775 1925 4775
 Wire Wire Line
@@ -220,8 +218,6 @@ Wire Wire Line
 Connection ~ 4875 2750
 Wire Wire Line
 	4875 2700 4875 2750
-Text GLabel 4875 3550 0    50   Input ~ 0
-~OE
 $Comp
 L 74xx:74HCT595 U7
 U 1 1 5E395D6D
@@ -251,8 +247,6 @@ Wire Wire Line
 Connection ~ 4875 4525
 Wire Wire Line
 	4875 4475 4875 4525
-Text GLabel 4875 5325 0    50   Input ~ 0
-~OE
 Text GLabel 5675 2075 2    50   Output ~ 0
 SERIALOUT1
 Text GLabel 5675 3850 2    50   Output ~ 0
@@ -430,8 +424,6 @@ Wire Wire Line
 	3050 6900 3050 6950
 Text GLabel 9850 3425 2    50   Output ~ 0
 LOADCOL
-Text GLabel 9850 3825 2    50   Output ~ 0
-~OE
 Text GLabel 7050 1675 0    50   Input ~ 0
 COL9
 Text GLabel 7050 1575 0    50   Input ~ 0
@@ -1407,5 +1399,61 @@ F 2 "promicro:ProMicro" H 9250 2425 60  0001 C CNN
 F 3 "" H 9250 2425 60  0000 C CNN
 	1    9150 3475
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5F38CBA0
+P 4800 1875
+F 0 "#PWR?" H 4800 1625 50  0001 C CNN
+F 1 "GNDD" H 4804 1720 50  0000 C CNN
+F 2 "" H 4800 1875 50  0001 C CNN
+F 3 "" H 4800 1875 50  0001 C CNN
+	1    4800 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5F38E20D
+P 4800 3650
+F 0 "#PWR?" H 4800 3400 50  0001 C CNN
+F 1 "GNDD" H 4804 3495 50  0000 C CNN
+F 2 "" H 4800 3650 50  0001 C CNN
+F 3 "" H 4800 3650 50  0001 C CNN
+	1    4800 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1875 4800 1775
+Wire Wire Line
+	4800 1775 4875 1775
+Wire Wire Line
+	4800 3650 4800 3550
+Wire Wire Line
+	4800 3550 4875 3550
+$Comp
+L power:GNDD #PWR?
+U 1 1 5F39B529
+P 4800 5425
+F 0 "#PWR?" H 4800 5175 50  0001 C CNN
+F 1 "GNDD" H 4804 5270 50  0000 C CNN
+F 2 "" H 4800 5425 50  0001 C CNN
+F 3 "" H 4800 5425 50  0001 C CNN
+	1    4800 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5425 4800 5325
+Wire Wire Line
+	4800 5325 4875 5325
+$Comp
+L power:GNDD #PWR?
+U 1 1 5F3A2D72
+P 9850 3825
+F 0 "#PWR?" H 9850 3575 50  0001 C CNN
+F 1 "GNDD" V 9854 3715 50  0000 R CNN
+F 2 "" H 9850 3825 50  0001 C CNN
+F 3 "" H 9850 3825 50  0001 C CNN
+	1    9850 3825
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
