@@ -1456,4 +1456,6 @@ F 3 "" H 9850 3825 50  0001 C CNN
 	1    9850 3825
 	0    -1   -1   0   
 $EndComp
+Text Notes 9675 4475 0    50   ~ 0
+NOTE1: pin B3 is used to differentiate\nfrom the original TH Xwhatsit design\n\nNOTE2: pin B6 can also be an ADC\ninput, so we may use it in the\nfuture to determine board version\nby adding a voltage divider to this pin.
 $EndSCHEMATC
