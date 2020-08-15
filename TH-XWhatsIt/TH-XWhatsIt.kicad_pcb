@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 33)
-    (tracks 1473)
+    (tracks 1470)
     (zones 0)
     (modules 34)
     (nets 132)
@@ -20,7 +20,7 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
@@ -3288,9 +3288,6 @@
   (via (at 120.73 64.262) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 50) (tstamp 5F3402A1))
   (via (at 124.667 64.262) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 50) (tstamp 5F3402A3))
   (via (at 126.59486 65.56502) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 50) (tstamp 5F340533))
-  (via (at 130.65886 65.56502) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 50) (tstamp 5F340535))
-  (via (at 134.59586 65.56502) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 50) (tstamp 5F340537))
-  (via (at 138.53286 65.56502) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 50) (tstamp 5F340539))
   (via (at 142.59686 65.56502) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 50) (tstamp 5F34053B))
   (via (at 146.40686 65.56502) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 50) (tstamp 5F34053D))
   (via (at 150.47086 65.56502) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 50) (tstamp 5F34053F))
