@@ -192,4 +192,30 @@ BSCOL13
 Text HLabel 2700 5050 0    50   Output ~ 0
 BSCOL16
 NoConn ~ 2700 1225
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5F54034D
+P 6325 4950
+F 0 "H3" V 6371 5100 50  0000 L CNN
+F 1 "MountingHole_Pad" V 6280 5100 50  0000 L CNN
+F 2 "TH-XWhatsIt:BeamSpringGroundingMountingHole" H 6325 4950 50  0001 C CNN
+F 3 "~" H 6325 4950 50  0001 C CNN
+	1    6325 4950
+	0    1    -1   0   
+$EndComp
+Text HLabel 6225 4950 0    50   UnSpc ~ 0
+BSGROUND
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F554CE5
+P 6325 5175
+F 0 "H4" V 6371 5325 50  0000 L CNN
+F 1 "MountingHole_Pad" V 6280 5325 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad_Via" H 6325 5175 50  0001 C CNN
+F 3 "~" H 6325 5175 50  0001 C CNN
+	1    6325 5175
+	0    1    -1   0   
+$EndComp
+Text HLabel 6225 5175 0    50   UnSpc ~ 0
+BSGROUND
 $EndSCHEMATC
