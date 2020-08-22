@@ -107,8 +107,8 @@ $Comp
 L Device:R_Network04_US RN3
 U 1 1 5E33600B
 P 1525 4275
-F 0 "RN3" H 1713 4321 50  0000 L CNN
-F 1 "100K" H 1713 4230 50  0000 L CNN
+F 0 "RN3" H 1450 4525 50  0000 L CNN
+F 1 "100K" H 1425 4450 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP5" V 1800 4275 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1525 4275 50  0001 C CNN
 	1    1525 4275
@@ -649,17 +649,17 @@ Wire Wire Line
 Wire Wire Line
 	1625 4575 1625 5175
 Wire Wire Line
-	1625 5175 2000 5175
+	1625 5175 1725 5175
 Connection ~ 1625 4575
 Wire Wire Line
-	1525 4675 2000 4675
+	1525 4675 1775 4675
 Wire Wire Line
 	2000 4675 2000 4575
 Connection ~ 1525 4675
 Wire Wire Line
 	1525 4675 1525 4475
 Wire Wire Line
-	1325 5850 2000 5850
+	1325 5850 1725 5850
 Wire Wire Line
 	2000 5850 2000 5775
 Connection ~ 1325 5850
@@ -668,31 +668,31 @@ Wire Wire Line
 Wire Wire Line
 	1425 5775 1425 6375
 Wire Wire Line
-	1425 6375 2000 6375
+	1425 6375 1725 6375
 Connection ~ 1425 5775
 Text GLabel 3500 5875 2    50   Output ~ 0
 ROW8
 Text GLabel 3500 4675 2    50   Output ~ 0
 ROW7
 Wire Wire Line
-	2000 2075 1625 2075
+	2000 2075 1775 2075
 Wire Wire Line
 	1625 2075 1625 1475
 Connection ~ 1625 1475
 Wire Wire Line
-	1525 1550 2000 1550
+	1525 1550 1775 1550
 Wire Wire Line
 	2000 1550 2000 1475
 Connection ~ 1525 1550
 Wire Wire Line
 	1525 1550 1525 1375
 Wire Wire Line
-	2000 3275 1425 3275
+	2000 3275 1725 3275
 Wire Wire Line
 	1425 3275 1425 2675
 Connection ~ 1425 2675
 Wire Wire Line
-	1325 2750 2000 2750
+	1325 2750 1725 2750
 Wire Wire Line
 	2000 2750 2000 2675
 Connection ~ 1325 2750
@@ -1283,7 +1283,7 @@ U 1 1 5E3E385D
 P 3125 1000
 F 0 "R2" V 2920 1000 50  0000 C CNN
 F 1 "1K" V 3011 1000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" H 3125 1000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 3125 1000 50  0001 C CNN
 F 3 "~" H 3125 1000 50  0001 C CNN
 	1    3125 1000
 	0    1    1    0   
@@ -1316,7 +1316,7 @@ U 1 1 5E3E384B
 P 3250 875
 F 0 "R1" H 3318 921 50  0000 L CNN
 F 1 "4K7" H 3318 830 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" H 3250 875 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 3250 875 50  0001 C CNN
 F 3 "~" H 3250 875 50  0001 C CNN
 	1    3250 875 
 	1    0    0    -1  
@@ -1341,4 +1341,137 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1425 1175 50  0001 C CNN
 $EndComp
 Text GLabel 1325 4075 1    50   UnSpc ~ 0
 BIAS
+$Comp
+L Device:R R12
+U 1 1 5F41CB12
+P 1775 1400
+F 0 "R12" H 1845 1446 50  0000 L CNN
+F 1 "NM" H 1845 1355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1705 1400 50  0001 C CNN
+F 3 "~" H 1775 1400 50  0001 C CNN
+	1    1775 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ 1775 1550
+Wire Wire Line
+	1775 1550 2000 1550
+$Comp
+L Device:R R6
+U 1 1 5F420594
+P 1725 1925
+F 0 "R6" H 1795 1971 50  0000 L CNN
+F 1 "NM" H 1795 1880 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1655 1925 50  0001 C CNN
+F 3 "~" H 1725 1925 50  0001 C CNN
+	1    1725 1925
+	1    0    0    -1  
+$EndComp
+Connection ~ 1775 2075
+Wire Wire Line
+	1775 2075 1725 2075
+Connection ~ 1725 2075
+Wire Wire Line
+	1725 2075 1625 2075
+$Comp
+L Device:R R7
+U 1 1 5F42305A
+P 1725 2600
+F 0 "R7" H 1795 2646 50  0000 L CNN
+F 1 "NM" H 1795 2555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1655 2600 50  0001 C CNN
+F 3 "~" H 1725 2600 50  0001 C CNN
+	1    1725 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1725 2750
+Wire Wire Line
+	1725 2750 2000 2750
+$Comp
+L Device:R R8
+U 1 1 5F42370C
+P 1725 3125
+F 0 "R8" H 1795 3171 50  0000 L CNN
+F 1 "NM" H 1795 3080 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1655 3125 50  0001 C CNN
+F 3 "~" H 1725 3125 50  0001 C CNN
+	1    1725 3125
+	1    0    0    -1  
+$EndComp
+Connection ~ 1725 3275
+Wire Wire Line
+	1725 3275 1425 3275
+$Comp
+L Device:R R13
+U 1 1 5F426116
+P 1775 4525
+F 0 "R13" H 1845 4571 50  0000 L CNN
+F 1 "NM" H 1845 4480 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1705 4525 50  0001 C CNN
+F 3 "~" H 1775 4525 50  0001 C CNN
+	1    1775 4525
+	1    0    0    -1  
+$EndComp
+Connection ~ 1775 4675
+Wire Wire Line
+	1775 4675 2000 4675
+$Comp
+L Device:R R9
+U 1 1 5F4267D3
+P 1725 5025
+F 0 "R9" H 1795 5071 50  0000 L CNN
+F 1 "NM" H 1795 4980 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1655 5025 50  0001 C CNN
+F 3 "~" H 1725 5025 50  0001 C CNN
+	1    1725 5025
+	1    0    0    -1  
+$EndComp
+Connection ~ 1725 5175
+Wire Wire Line
+	1725 5175 2000 5175
+$Comp
+L Device:R R10
+U 1 1 5F4281A3
+P 1725 5700
+F 0 "R10" H 1795 5746 50  0000 L CNN
+F 1 "NM" H 1795 5655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1655 5700 50  0001 C CNN
+F 3 "~" H 1725 5700 50  0001 C CNN
+	1    1725 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 1725 5850
+Wire Wire Line
+	1725 5850 2000 5850
+$Comp
+L Device:R R11
+U 1 1 5F428763
+P 1725 6225
+F 0 "R11" H 1795 6271 50  0000 L CNN
+F 1 "NM" H 1795 6180 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1655 6225 50  0001 C CNN
+F 3 "~" H 1725 6225 50  0001 C CNN
+	1    1725 6225
+	1    0    0    -1  
+$EndComp
+Connection ~ 1725 6375
+Wire Wire Line
+	1725 6375 2000 6375
+Text GLabel 1775 1250 1    50   UnSpc ~ 0
+BIAS
+Text GLabel 1725 1775 1    50   UnSpc ~ 0
+BIAS
+Text GLabel 1725 2450 1    50   UnSpc ~ 0
+BIAS
+Text GLabel 1725 2975 1    50   UnSpc ~ 0
+BIAS
+Text GLabel 1775 4375 1    50   UnSpc ~ 0
+BIAS
+Text GLabel 1725 4875 1    50   UnSpc ~ 0
+BIAS
+Text GLabel 1725 5550 1    50   UnSpc ~ 0
+BIAS
+Text GLabel 1725 6075 1    50   UnSpc ~ 0
+BIAS
+Text Notes 1025 750  0    50   ~ 0
+Either mount just the resistor networks,\nor mount just the individual pulls to BIAS.
 $EndSCHEMATC
