@@ -252,7 +252,7 @@ SETPOINT
 Text GLabel 9850 3525 2    50   Output ~ 0
 CLOCK
 $Comp
-L TH-XWhatsIt-rescue:ProMicro-promicro U7
+L promicro:ProMicro U7
 U 1 1 5E3248FF
 P 9150 3475
 F 0 "U7" H 9150 4512 60  0000 C CNN
