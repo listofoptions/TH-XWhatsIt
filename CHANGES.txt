@@ -40,3 +40,19 @@ Febuary 4th, 2020
             physical hardware testing
             firmware
             firmware testing
+July 7th, 2020
+    user: listofoptions
+        done:
+            removed capacitor on DAC output.
+            ...?
+August 22nd, 2020
+    user: pandrew
+        done:
+            Cleanup of project structure
+            Removed pull-ups from lm339 outputs. The atmega can supply internal pull-ups.
+            Fixed missing connection to ground strap on main board
+            Remove second set of biasing resistors (better for >4row keyboards)
+            Made all resistors horizontally soldered
+            Added option to use individual resistors instead of resistor networks. (Easier to source)
+            Bumped revision to 0.0.3
+            Added revision to silkscreen.

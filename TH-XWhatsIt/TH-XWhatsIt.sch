@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title "THT-XWhatsIt combined beamspring and model f controller"
+Title "TH-XWhatsIt combined beamspring and model f controller"
 Date "2020-01-31"
-Rev "0.0.2"
+Rev "0.0.3"
 Comp "Rainy Day Plans"
 Comment1 ""
 Comment2 ""
