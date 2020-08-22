@@ -115,17 +115,6 @@ CLOCK
 Text GLabel 4875 1775 0    50   Input ~ 0
 ~OE
 $Comp
-L Device:R_Network04_US RN4
-U 1 1 5E3332D9
-P 3075 4275
-F 0 "RN4" H 3263 4321 50  0000 L CNN
-F 1 "10K" H 3263 4230 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP5" V 3350 4275 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3075 4275 50  0001 C CNN
-	1    3075 4275
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Network04_US RN3
 U 1 1 5E33600B
 P 1525 4275
@@ -188,22 +177,6 @@ Wire Wire Line
 Connection ~ 1600 6950
 Wire Wire Line
 	1600 6900 1600 6950
-Wire Wire Line
-	2600 4675 2875 4675
-Wire Wire Line
-	2875 4675 2875 4475
-Wire Wire Line
-	2975 5275 2975 4475
-Wire Wire Line
-	2600 5275 2975 5275
-Wire Wire Line
-	3075 4475 3075 5875
-Wire Wire Line
-	2600 5875 3075 5875
-Wire Wire Line
-	3175 6475 3175 4475
-Wire Wire Line
-	2600 6475 3175 6475
 $Comp
 L Device:R_Small_US R4
 U 1 1 5E362740
@@ -264,18 +237,6 @@ F 3 "" H 9250 2425 60  0000 C CNN
 $EndComp
 NoConn ~ 9850 2725
 NoConn ~ 9850 2925
-Wire Wire Line
-	2875 4675 3500 4675
-Connection ~ 2875 4675
-Wire Wire Line
-	2975 5275 3500 5275
-Connection ~ 2975 5275
-Wire Wire Line
-	3075 5875 3500 5875
-Connection ~ 3075 5875
-Wire Wire Line
-	3175 6475 3500 6475
-Connection ~ 3175 6475
 Text GLabel 8450 3225 0    50   Input ~ 0
 ROW1
 Text GLabel 8450 3125 0    50   Input ~ 0
@@ -466,17 +427,6 @@ F 3 "~" H 1625 825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network04_US RN2
-U 1 1 5E3E3851
-P 3075 1175
-F 0 "RN2" H 3263 1221 50  0000 L CNN
-F 1 "10K" H 3263 1130 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP5" V 3350 1175 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3075 1175 50  0001 C CNN
-	1    3075 1175
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Network04_US RN1
 U 1 1 5E3E3857
 P 1425 1175
@@ -530,38 +480,10 @@ SENSE3
 Text GLabel 1150 3275 0    50   Input ~ 0
 SENSE4
 Wire Wire Line
-	2600 1575 2875 1575
-Wire Wire Line
-	2875 1575 2875 1375
-Wire Wire Line
-	2975 2175 2975 1375
-Wire Wire Line
-	2600 2175 2975 2175
-Wire Wire Line
-	3075 1375 3075 2775
-Wire Wire Line
-	2600 2775 3075 2775
-Wire Wire Line
-	3175 3375 3175 1375
-Wire Wire Line
-	2600 3375 3175 3375
-Wire Wire Line
 	1925 3475 1150 3475
 Connection ~ 1925 3475
 Text GLabel 1150 3475 0    50   Input ~ 0
 SETPOINT
-Wire Wire Line
-	2875 1575 3500 1575
-Connection ~ 2875 1575
-Wire Wire Line
-	2975 2175 3500 2175
-Connection ~ 2975 2175
-Wire Wire Line
-	3075 2775 3500 2775
-Connection ~ 3075 2775
-Wire Wire Line
-	3175 3375 3500 3375
-Connection ~ 3175 3375
 Text GLabel 3500 2175 2    50   Output ~ 0
 ROW1
 Text GLabel 3500 1575 2    50   Output ~ 0
@@ -872,28 +794,6 @@ F 1 "+5VA" H 1640 898 50  0000 C CNN
 F 2 "" H 1625 725 50  0001 C CNN
 F 3 "" H 1625 725 50  0001 C CNN
 	1    1625 725 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VD #PWR0104
-U 1 1 5E81684F
-P 2875 4075
-F 0 "#PWR0104" H 2875 3925 50  0001 C CNN
-F 1 "+5VD" H 2890 4248 50  0000 C CNN
-F 2 "" H 2875 4075 50  0001 C CNN
-F 3 "" H 2875 4075 50  0001 C CNN
-	1    2875 4075
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VD #PWR0105
-U 1 1 5E817368
-P 2875 975
-F 0 "#PWR0105" H 2875 825 50  0001 C CNN
-F 1 "+5VD" H 2890 1148 50  0000 C CNN
-F 2 "" H 2875 975 50  0001 C CNN
-F 3 "" H 2875 975 50  0001 C CNN
-	1    2875 975 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1470,4 +1370,20 @@ Text GLabel 10600 1400 2    50   Output ~ 0
 SETPOINT
 Wire Wire Line
 	10275 1400 10600 1400
+Wire Wire Line
+	2600 1575 3500 1575
+Wire Wire Line
+	2600 2175 3500 2175
+Wire Wire Line
+	2600 2775 3500 2775
+Wire Wire Line
+	2600 3375 3500 3375
+Wire Wire Line
+	2600 4675 3500 4675
+Wire Wire Line
+	2600 5275 3500 5275
+Wire Wire Line
+	2600 5875 3500 5875
+Wire Wire Line
+	2600 6475 3500 6475
 $EndSCHEMATC
