@@ -80,17 +80,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf" H 5275 15
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R6
-U 1 1 5E3286E3
-P 1325 3925
-F 0 "R6" H 1393 3971 50  0000 L CNN
-F 1 "4K7" H 1393 3880 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" H 1325 3925 50  0001 C CNN
-F 3 "~" H 1325 3925 50  0001 C CNN
-	1    1325 3925
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C5
 U 1 1 5E32B1F3
 P 4625 975
@@ -125,24 +114,6 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1525 4275 50  0001 C CNN
 	1    1525 4275
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small_US R7
-U 1 1 5E34214B
-P 1200 4050
-F 0 "R7" V 995 4050 50  0000 C CNN
-F 1 "1K" V 1086 4050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" H 1200 4050 50  0001 C CNN
-F 3 "~" H 1200 4050 50  0001 C CNN
-	1    1200 4050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1325 4025 1325 4050
-Wire Wire Line
-	1300 4050 1325 4050
-Connection ~ 1325 4050
-Wire Wire Line
-	1325 4050 1325 4075
 Wire Wire Line
 	2000 4775 1925 4775
 Wire Wire Line
@@ -415,46 +386,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2350 3575 50  0001 C CNN
 	4    2300 3375
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small_US R1
-U 1 1 5E3E384B
-P 1625 825
-F 0 "R1" H 1693 871 50  0000 L CNN
-F 1 "4K7" H 1693 780 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" H 1625 825 50  0001 C CNN
-F 3 "~" H 1625 825 50  0001 C CNN
-	1    1625 825 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Network04_US RN1
-U 1 1 5E3E3857
-P 1425 1175
-F 0 "RN1" H 1613 1221 50  0000 L CNN
-F 1 "100K" H 1613 1130 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP5" V 1700 1175 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1425 1175 50  0001 C CNN
-	1    1425 1175
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R2
-U 1 1 5E3E385D
-P 1500 950
-F 0 "R2" V 1295 950 50  0000 C CNN
-F 1 "1K" V 1386 950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" H 1500 950 50  0001 C CNN
-F 3 "~" H 1500 950 50  0001 C CNN
-	1    1500 950 
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	1625 925  1625 950 
+	3250 975  3250 1000
 Wire Wire Line
-	1600 950  1625 950 
-Connection ~ 1625 950 
-Wire Wire Line
-	1625 950  1625 975 
+	3225 1000 3250 1000
 Wire Wire Line
 	2000 1675 1925 1675
 Wire Wire Line
@@ -786,17 +721,6 @@ F 3 "" H 8450 2925 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5VA #PWR0103
-U 1 1 5E8155F5
-P 1625 725
-F 0 "#PWR0103" H 1625 575 50  0001 C CNN
-F 1 "+5VA" H 1640 898 50  0000 C CNN
-F 2 "" H 1625 725 50  0001 C CNN
-F 3 "" H 1625 725 50  0001 C CNN
-	1    1625 725 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5VD #PWR0106
 U 1 1 5E817D6B
 P 4875 925
@@ -849,17 +773,6 @@ F 1 "+5VD" H 8590 1048 50  0000 C CNN
 F 2 "" H 8575 875 50  0001 C CNN
 F 3 "" H 8575 875 50  0001 C CNN
 	1    8575 875 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VA #PWR0112
-U 1 1 5E81CA85
-P 1325 3825
-F 0 "#PWR0112" H 1325 3675 50  0001 C CNN
-F 1 "+5VA" H 1340 3998 50  0000 C CNN
-F 2 "" H 1325 3825 50  0001 C CNN
-F 3 "" H 1325 3825 50  0001 C CNN
-	1    1325 3825
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1127,28 +1040,6 @@ F 3 "" H 1250 6950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDA #PWR0140
-U 1 1 5E847CED
-P 1400 950
-F 0 "#PWR0140" H 1400 700 50  0001 C CNN
-F 1 "GNDA" V 1405 823 50  0000 R CNN
-F 2 "" H 1400 950 50  0001 C CNN
-F 3 "" H 1400 950 50  0001 C CNN
-	1    1400 950 
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDA #PWR0141
-U 1 1 5E847FAD
-P 1100 4050
-F 0 "#PWR0141" H 1100 3800 50  0001 C CNN
-F 1 "GNDA" V 1105 3923 50  0000 R CNN
-F 2 "" H 1100 4050 50  0001 C CNN
-F 3 "" H 1100 4050 50  0001 C CNN
-	1    1100 4050
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GNDA #PWR0142
 U 1 1 5E8497A4
 P 2000 7550
@@ -1386,4 +1277,68 @@ Wire Wire Line
 	2600 5875 3500 5875
 Wire Wire Line
 	2600 6475 3500 6475
+$Comp
+L Device:R_Small_US R2
+U 1 1 5E3E385D
+P 3125 1000
+F 0 "R2" V 2920 1000 50  0000 C CNN
+F 1 "1K" V 3011 1000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" H 3125 1000 50  0001 C CNN
+F 3 "~" H 3125 1000 50  0001 C CNN
+	1    3125 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR0140
+U 1 1 5E847CED
+P 3025 1000
+F 0 "#PWR0140" H 3025 750 50  0001 C CNN
+F 1 "GNDA" V 3030 873 50  0000 R CNN
+F 2 "" H 3025 1000 50  0001 C CNN
+F 3 "" H 3025 1000 50  0001 C CNN
+	1    3025 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5VA #PWR0103
+U 1 1 5E8155F5
+P 3250 775
+F 0 "#PWR0103" H 3250 625 50  0001 C CNN
+F 1 "+5VA" H 3265 948 50  0000 C CNN
+F 2 "" H 3250 775 50  0001 C CNN
+F 3 "" H 3250 775 50  0001 C CNN
+	1    3250 775 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5E3E384B
+P 3250 875
+F 0 "R1" H 3318 921 50  0000 L CNN
+F 1 "4K7" H 3318 830 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" H 3250 875 50  0001 C CNN
+F 3 "~" H 3250 875 50  0001 C CNN
+	1    3250 875 
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 1000 2    50   UnSpc ~ 0
+BIAS
+Wire Wire Line
+	3250 1000 3700 1000
+Connection ~ 3250 1000
+Text GLabel 1625 975  1    50   UnSpc ~ 0
+BIAS
+$Comp
+L Device:R_Network04_US RN1
+U 1 1 5E3E3857
+P 1425 1175
+F 0 "RN1" H 1613 1221 50  0000 L CNN
+F 1 "100K" H 1613 1130 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 1700 1175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1425 1175 50  0001 C CNN
+	1    1425 1175
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1325 4075 1    50   UnSpc ~ 0
+BIAS
 $EndSCHEMATC
