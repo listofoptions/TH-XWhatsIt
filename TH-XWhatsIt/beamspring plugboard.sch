@@ -204,7 +204,7 @@ U 1 1 5F892130
 P 6250 4675
 F 0 "H5" H 6350 4724 50  0000 L CNN
 F 1 "GROUND STRAP" H 6350 4633 50  0000 L CNN
-F 2 "TH-XWhatsIt:BeamSpringGroundingMountingHole" H 6250 4675 50  0001 C CNN
+F 2 "TH-XWhatsIt:BeamSpringGroundingMountingHoleForTHOnly" H 6250 4675 50  0001 C CNN
 F 3 "~" H 6250 4675 50  0001 C CNN
 	1    6250 4675
 	1    0    0    -1  
