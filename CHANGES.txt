@@ -45,7 +45,7 @@ July 7th, 2020
         done:
             removed capacitor on DAC output.
             ...?
-August 22nd, 2020
+August 22-23, 2020
     user: pandrew
         done:
             Cleanup of project structure
@@ -54,5 +54,8 @@ August 22nd, 2020
             Remove second set of biasing resistors (better for >4row keyboards)
             Made all resistors horizontally soldered
             Added option to use individual resistors instead of resistor networks. (Easier to source)
+            Added pads to more easily short reset and GND.
+            Use net tie to enforce star ground
+            Thicken up ground traces
             Bumped revision to 0.0.3
             Added revision to silkscreen.
