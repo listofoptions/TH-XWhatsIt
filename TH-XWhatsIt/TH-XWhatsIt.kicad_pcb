@@ -473,6 +473,21 @@
     (add_net VCC)
   )
 
+  (module TH-XWhatsIt:PadsToShort (layer B.Cu) (tedit 5F42976F) (tstamp 5F42D6A6)
+    (at 61.242 139.532)
+    (path /5F5276AE)
+    (fp_text reference J13 (at 0 -0.5) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value Conn_01x02 (at 0 0.5) (layer B.Fab)
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 2 smd rect (at 1.75 -2.88) (size 3 3) (layers B.Cu B.Mask)
+      (net 169 RESET))
+    (pad 1 smd rect (at -1.75 -2.88) (size 3 3) (layers B.Cu B.Mask)
+      (net 172 GND))
+  )
+
   (module TH-XWhatsIt:BeamSpringGroundingMountingHole (layer F.Cu) (tedit 5F429631) (tstamp 5F49A267)
     (at 241.84864 104.20604)
     (path /5E9772A5/5F892130)
@@ -1097,21 +1112,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-  )
-
-  (module TH-XWhatsIt:PadsToShort (layer B.Cu) (tedit 5F380A79) (tstamp 5F42D6A6)
-    (at 61.242 139.532)
-    (path /5F5276AE)
-    (fp_text reference J13 (at 0 -0.5) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-    )
-    (fp_text value Conn_01x02 (at 0 0.5) (layer B.Fab)
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-    )
-    (pad 2 smd rect (at 1.75 -2.88) (size 3 3) (layers B.Cu B.Paste B.Mask)
-      (net 169 RESET))
-    (pad 1 smd rect (at -1.75 -2.88) (size 3 3) (layers B.Cu B.Paste B.Mask)
-      (net 172 GND))
   )
 
   (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5F45D0F8)
