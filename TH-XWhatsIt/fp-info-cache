@@ -1,4 +1,4 @@
-18297216293983399
+18298814508154399
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -70432,7 +70432,7 @@ Through hole straight pin header, 1x30, 2.54mm pitch, single row
 Through hole pin header THT 1x30 2.54mm single row
 0
 30
-29
+30
 TH-XWhatsIt
 NetTie-3_THT_Pad1.0mm_mod_thicker
 Net tie, 3 pin, 1.0mm round THT pads
@@ -70453,6 +70453,13 @@ beamspring_connector_footprint
 
 0
 180
+30
+TH-XWhatsIt
+displaywriter-connector_v3
+
+
+0
+150
 30
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
