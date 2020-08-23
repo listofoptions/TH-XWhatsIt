@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name TH-XWhatsIt)(type KiCad)(uri ${KIPRJMOD}/../libraries/TH-XWhatsIt.pretty)(options "")(descr ""))
+)
