@@ -207,7 +207,6 @@ F 3 "" H 9250 2425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9850 2725
-NoConn ~ 9850 2925
 Text GLabel 8450 3225 0    50   Input ~ 0
 ROW1
 Text GLabel 8450 3125 0    50   Input ~ 0
@@ -674,8 +673,6 @@ Text GLabel 3500 5875 2    50   Output ~ 0
 ROW8
 Text GLabel 3500 4675 2    50   Output ~ 0
 ROW7
-Wire Wire Line
-	2000 2075 1775 2075
 Wire Wire Line
 	1625 2075 1625 1475
 Connection ~ 1625 1475
@@ -1366,9 +1363,6 @@ F 3 "~" H 1725 1925 50  0001 C CNN
 	1    1725 1925
 	1    0    0    -1  
 $EndComp
-Connection ~ 1775 2075
-Wire Wire Line
-	1775 2075 1725 2075
 Connection ~ 1725 2075
 Wire Wire Line
 	1725 2075 1625 2075
@@ -1474,4 +1468,32 @@ Text GLabel 1725 6075 1    50   UnSpc ~ 0
 BIAS
 Text Notes 1025 750  0    50   ~ 0
 Either mount just the resistor networks,\nor mount just the individual pulls to BIAS.
+Wire Wire Line
+	1725 2075 2000 2075
+Text GLabel 9850 2925 2    50   UnSpc ~ 0
+RESET
+Text GLabel 5925 6450 2    50   UnSpc ~ 0
+RESET
+$Comp
+L power:GNDD #PWR0104
+U 1 1 5F51A5A9
+P 5925 6550
+F 0 "#PWR0104" H 5925 6300 50  0001 C CNN
+F 1 "GNDD" H 5929 6395 50  0000 C CNN
+F 2 "" H 5925 6550 50  0001 C CNN
+F 3 "" H 5925 6550 50  0001 C CNN
+	1    5925 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 5F5276AE
+P 5725 6550
+F 0 "J13" H 5643 6225 50  0000 C CNN
+F 1 "Conn_01x02" H 5643 6316 50  0000 C CNN
+F 2 "TH-XWhatsIt:PadsToShort" H 5725 6550 50  0001 C CNN
+F 3 "~" H 5725 6550 50  0001 C CNN
+	1    5725 6550
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
