@@ -16,45 +16,34 @@ $EndDescr
 $Comp
 L Comparator:LM339 U6
 U 1 1 5E31B184
-P 2300 4675
-F 0 "U6" H 2300 5042 50  0000 C CNN
-F 1 "LM339" H 2300 4951 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2250 4775 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2350 4875 50  0001 C CNN
-	1    2300 4675
+P 2625 4675
+F 0 "U6" H 2625 5042 50  0000 C CNN
+F 1 "LM339" H 2625 4951 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2575 4775 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2675 4875 50  0001 C CNN
+	1    2625 4675
 	1    0    0    -1  
 $EndComp
 $Comp
 L Comparator:LM339 U6
 U 2 1 5E31BA57
-P 2300 5275
-F 0 "U6" H 2300 5642 50  0000 C CNN
-F 1 "LM339" H 2300 5551 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2250 5375 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2350 5475 50  0001 C CNN
-	2    2300 5275
-	1    0    0    -1  
-$EndComp
-$Comp
-L Comparator:LM339 U6
-U 3 1 5E31C88E
-P 2300 5875
-F 0 "U6" H 2300 6242 50  0000 C CNN
-F 1 "LM339" H 2300 6151 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2250 5975 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2350 6075 50  0001 C CNN
-	3    2300 5875
+P 2625 5275
+F 0 "U6" H 2625 5642 50  0000 C CNN
+F 1 "LM339" H 2625 5551 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2575 5375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2675 5475 50  0001 C CNN
+	2    2625 5275
 	1    0    0    -1  
 $EndComp
 $Comp
 L Comparator:LM339 U6
 U 4 1 5E31DDF5
-P 2300 6475
-F 0 "U6" H 2300 6842 50  0000 C CNN
-F 1 "LM339" H 2300 6751 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2250 6575 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2350 6675 50  0001 C CNN
-	4    2300 6475
+P 2625 6475
+F 0 "U6" H 2625 6842 50  0000 C CNN
+F 1 "LM339" H 2625 6751 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2575 6575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2675 6675 50  0001 C CNN
+	4    2625 6475
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -114,22 +103,6 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1525 4275 50  0001 C CNN
 	1    1525 4275
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2000 4775 1925 4775
-Wire Wire Line
-	1925 4775 1925 5375
-Wire Wire Line
-	1925 5375 2000 5375
-Wire Wire Line
-	1925 5375 1925 5975
-Wire Wire Line
-	1925 5975 2000 5975
-Connection ~ 1925 5375
-Wire Wire Line
-	1925 5975 1925 6575
-Wire Wire Line
-	1925 6575 2000 6575
-Connection ~ 1925 5975
 $Comp
 L Device:C_Small C9
 U 1 1 5E34844A
@@ -188,9 +161,6 @@ Wire Wire Line
 Connection ~ 10275 1400
 Wire Wire Line
 	10275 1400 10275 1425
-Wire Wire Line
-	1925 6575 1150 6575
-Connection ~ 1925 6575
 Text GLabel 1150 6575 0    50   Input ~ 0
 SETPOINT
 Text GLabel 9850 3525 2    50   Output ~ 0
@@ -341,70 +311,10 @@ COL22
 Text GLabel 5675 5325 2    50   Output ~ 0
 COL23
 NoConn ~ 5675 5425
-$Comp
-L Comparator:LM339 U1
-U 1 1 5E3E3833
-P 2300 1575
-F 0 "U1" H 2300 1942 50  0000 C CNN
-F 1 "LM339" H 2300 1851 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2250 1675 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2350 1775 50  0001 C CNN
-	1    2300 1575
-	1    0    0    -1  
-$EndComp
-$Comp
-L Comparator:LM339 U1
-U 2 1 5E3E3839
-P 2300 2175
-F 0 "U1" H 2300 2542 50  0000 C CNN
-F 1 "LM339" H 2300 2451 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2250 2275 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2350 2375 50  0001 C CNN
-	2    2300 2175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Comparator:LM339 U1
-U 3 1 5E3E383F
-P 2300 2775
-F 0 "U1" H 2300 3142 50  0000 C CNN
-F 1 "LM339" H 2300 3051 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2250 2875 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2350 2975 50  0001 C CNN
-	3    2300 2775
-	1    0    0    -1  
-$EndComp
-$Comp
-L Comparator:LM339 U1
-U 4 1 5E3E3845
-P 2300 3375
-F 0 "U1" H 2300 3742 50  0000 C CNN
-F 1 "LM339" H 2300 3651 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2250 3475 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2350 3575 50  0001 C CNN
-	4    2300 3375
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3250 975  3250 1000
 Wire Wire Line
 	3225 1000 3250 1000
-Wire Wire Line
-	2000 1675 1925 1675
-Wire Wire Line
-	1925 1675 1925 2275
-Wire Wire Line
-	1925 2275 2000 2275
-Wire Wire Line
-	1925 2275 1925 2875
-Wire Wire Line
-	1925 2875 2000 2875
-Connection ~ 1925 2275
-Wire Wire Line
-	1925 2875 1925 3475
-Wire Wire Line
-	1925 3475 2000 3475
-Connection ~ 1925 2875
 Text GLabel 1150 1475 0    50   Input ~ 0
 SENSE1
 Text GLabel 1150 2075 0    50   Input ~ 0
@@ -413,9 +323,6 @@ Text GLabel 1150 2675 0    50   Input ~ 0
 SENSE3
 Text GLabel 1150 3275 0    50   Input ~ 0
 SENSE4
-Wire Wire Line
-	1925 3475 1150 3475
-Connection ~ 1925 3475
 Text GLabel 1150 3475 0    50   Input ~ 0
 SETPOINT
 Text GLabel 3500 2175 2    50   Output ~ 0
@@ -647,27 +554,17 @@ Wire Wire Line
 	1325 3275 1150 3275
 Wire Wire Line
 	1625 4575 1625 5175
-Wire Wire Line
-	1625 5175 1725 5175
 Connection ~ 1625 4575
 Wire Wire Line
 	1525 4675 1775 4675
-Wire Wire Line
-	2000 4675 2000 4575
 Connection ~ 1525 4675
 Wire Wire Line
 	1525 4675 1525 4475
-Wire Wire Line
-	1325 5850 1725 5850
-Wire Wire Line
-	2000 5850 2000 5775
 Connection ~ 1325 5850
 Wire Wire Line
 	1325 5850 1325 6375
 Wire Wire Line
 	1425 5775 1425 6375
-Wire Wire Line
-	1425 6375 1725 6375
 Connection ~ 1425 5775
 Text GLabel 3500 5875 2    50   Output ~ 0
 ROW8
@@ -678,20 +575,12 @@ Wire Wire Line
 Connection ~ 1625 1475
 Wire Wire Line
 	1525 1550 1775 1550
-Wire Wire Line
-	2000 1550 2000 1475
 Connection ~ 1525 1550
 Wire Wire Line
 	1525 1550 1525 1375
 Wire Wire Line
-	2000 3275 1725 3275
-Wire Wire Line
 	1425 3275 1425 2675
 Connection ~ 1425 2675
-Wire Wire Line
-	1325 2750 1725 2750
-Wire Wire Line
-	2000 2750 2000 2675
 Connection ~ 1325 2750
 Wire Wire Line
 	1325 2750 1325 3275
@@ -1184,22 +1073,6 @@ Text GLabel 10600 1400 2    50   Output ~ 0
 SETPOINT
 Wire Wire Line
 	10275 1400 10600 1400
-Wire Wire Line
-	2600 1575 3500 1575
-Wire Wire Line
-	2600 2175 3500 2175
-Wire Wire Line
-	2600 2775 3500 2775
-Wire Wire Line
-	2600 3375 3500 3375
-Wire Wire Line
-	2600 4675 3500 4675
-Wire Wire Line
-	2600 5275 3500 5275
-Wire Wire Line
-	2600 5875 3500 5875
-Wire Wire Line
-	2600 6475 3500 6475
 $Comp
 L Device:R_Small_US R2
 U 1 1 5E3E385D
@@ -1269,133 +1142,109 @@ L Device:R R12
 U 1 1 5F41CB12
 P 1775 1400
 F 0 "R12" H 1845 1446 50  0000 L CNN
-F 1 "NM" H 1845 1355 50  0000 L CNN
+F 1 "100k" H 1845 1355 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1705 1400 50  0001 C CNN
 F 3 "~" H 1775 1400 50  0001 C CNN
 	1    1775 1400
 	1    0    0    -1  
 $EndComp
 Connection ~ 1775 1550
-Wire Wire Line
-	1775 1550 2000 1550
 $Comp
 L Device:R R6
 U 1 1 5F420594
-P 1725 1925
-F 0 "R6" H 1795 1971 50  0000 L CNN
-F 1 "NM" H 1795 1880 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1655 1925 50  0001 C CNN
-F 3 "~" H 1725 1925 50  0001 C CNN
-	1    1725 1925
+P 1775 1925
+F 0 "R6" H 1845 1971 50  0000 L CNN
+F 1 "100k" H 1845 1880 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1705 1925 50  0001 C CNN
+F 3 "~" H 1775 1925 50  0001 C CNN
+	1    1775 1925
 	1    0    0    -1  
 $EndComp
-Connection ~ 1725 2075
-Wire Wire Line
-	1725 2075 1625 2075
 $Comp
 L Device:R R7
 U 1 1 5F42305A
-P 1725 2600
-F 0 "R7" H 1795 2646 50  0000 L CNN
-F 1 "NM" H 1795 2555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1655 2600 50  0001 C CNN
-F 3 "~" H 1725 2600 50  0001 C CNN
-	1    1725 2600
+P 1775 2600
+F 0 "R7" H 1845 2646 50  0000 L CNN
+F 1 "100k" H 1845 2555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1705 2600 50  0001 C CNN
+F 3 "~" H 1775 2600 50  0001 C CNN
+	1    1775 2600
 	1    0    0    -1  
 $EndComp
-Connection ~ 1725 2750
-Wire Wire Line
-	1725 2750 2000 2750
 $Comp
 L Device:R R8
 U 1 1 5F42370C
-P 1725 3125
-F 0 "R8" H 1795 3171 50  0000 L CNN
-F 1 "NM" H 1795 3080 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1655 3125 50  0001 C CNN
-F 3 "~" H 1725 3125 50  0001 C CNN
-	1    1725 3125
+P 1775 3125
+F 0 "R8" H 1845 3171 50  0000 L CNN
+F 1 "100k" H 1845 3080 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1705 3125 50  0001 C CNN
+F 3 "~" H 1775 3125 50  0001 C CNN
+	1    1775 3125
 	1    0    0    -1  
 $EndComp
-Connection ~ 1725 3275
-Wire Wire Line
-	1725 3275 1425 3275
 $Comp
 L Device:R R13
 U 1 1 5F426116
 P 1775 4525
 F 0 "R13" H 1845 4571 50  0000 L CNN
-F 1 "NM" H 1845 4480 50  0000 L CNN
+F 1 "100k" H 1845 4480 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1705 4525 50  0001 C CNN
 F 3 "~" H 1775 4525 50  0001 C CNN
 	1    1775 4525
 	1    0    0    -1  
 $EndComp
 Connection ~ 1775 4675
-Wire Wire Line
-	1775 4675 2000 4675
 $Comp
 L Device:R R9
 U 1 1 5F4267D3
-P 1725 5025
-F 0 "R9" H 1795 5071 50  0000 L CNN
-F 1 "NM" H 1795 4980 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1655 5025 50  0001 C CNN
-F 3 "~" H 1725 5025 50  0001 C CNN
-	1    1725 5025
+P 1775 5025
+F 0 "R9" H 1845 5071 50  0000 L CNN
+F 1 "100k" H 1845 4980 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1705 5025 50  0001 C CNN
+F 3 "~" H 1775 5025 50  0001 C CNN
+	1    1775 5025
 	1    0    0    -1  
 $EndComp
-Connection ~ 1725 5175
-Wire Wire Line
-	1725 5175 2000 5175
 $Comp
 L Device:R R10
 U 1 1 5F4281A3
-P 1725 5700
-F 0 "R10" H 1795 5746 50  0000 L CNN
-F 1 "NM" H 1795 5655 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1655 5700 50  0001 C CNN
-F 3 "~" H 1725 5700 50  0001 C CNN
-	1    1725 5700
+P 1775 5700
+F 0 "R10" H 1845 5746 50  0000 L CNN
+F 1 "100k" H 1845 5655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1705 5700 50  0001 C CNN
+F 3 "~" H 1775 5700 50  0001 C CNN
+	1    1775 5700
 	1    0    0    -1  
 $EndComp
-Connection ~ 1725 5850
-Wire Wire Line
-	1725 5850 2000 5850
 $Comp
 L Device:R R11
 U 1 1 5F428763
-P 1725 6225
-F 0 "R11" H 1795 6271 50  0000 L CNN
-F 1 "NM" H 1795 6180 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1655 6225 50  0001 C CNN
-F 3 "~" H 1725 6225 50  0001 C CNN
-	1    1725 6225
+P 1775 6225
+F 0 "R11" H 1845 6271 50  0000 L CNN
+F 1 "100k" H 1845 6180 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1705 6225 50  0001 C CNN
+F 3 "~" H 1775 6225 50  0001 C CNN
+	1    1775 6225
 	1    0    0    -1  
 $EndComp
-Connection ~ 1725 6375
-Wire Wire Line
-	1725 6375 2000 6375
 Text GLabel 1775 1250 1    50   UnSpc ~ 0
 BIAS
-Text GLabel 1725 1775 1    50   UnSpc ~ 0
+Text GLabel 1775 1775 1    50   UnSpc ~ 0
 BIAS
-Text GLabel 1725 2450 1    50   UnSpc ~ 0
+Text GLabel 1775 2450 1    50   UnSpc ~ 0
 BIAS
-Text GLabel 1725 2975 1    50   UnSpc ~ 0
+Text GLabel 1775 2975 1    50   UnSpc ~ 0
 BIAS
 Text GLabel 1775 4375 1    50   UnSpc ~ 0
 BIAS
-Text GLabel 1725 4875 1    50   UnSpc ~ 0
+Text GLabel 1775 4875 1    50   UnSpc ~ 0
 BIAS
-Text GLabel 1725 5550 1    50   UnSpc ~ 0
+Text GLabel 1775 5550 1    50   UnSpc ~ 0
 BIAS
-Text GLabel 1725 6075 1    50   UnSpc ~ 0
+Text GLabel 1775 6075 1    50   UnSpc ~ 0
 BIAS
 Text Notes 1025 750  0    50   ~ 0
 Either mount just the resistor networks,\nor mount just the individual pulls to BIAS.
-Wire Wire Line
-	1725 2075 2000 2075
 Text GLabel 9850 2925 2    50   UnSpc ~ 0
 RESET
 Text GLabel 5925 6450 2    50   UnSpc ~ 0
@@ -1527,10 +1376,10 @@ Wire Wire Line
 Wire Wire Line
 	9850 3025 10425 3025
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0117
 U 1 1 5F585D6B
 P 10425 3025
-F 0 "#PWR?" H 10425 2875 50  0001 C CNN
+F 0 "#PWR0117" H 10425 2875 50  0001 C CNN
 F 1 "VCC" H 10575 3100 50  0000 C CNN
 F 2 "" H 10425 3025 50  0001 C CNN
 F 3 "" H 10425 3025 50  0001 C CNN
@@ -1540,4 +1389,163 @@ $EndComp
 Connection ~ 10425 3025
 Wire Wire Line
 	10425 3025 10550 3025
+$Comp
+L Comparator:LM339 U1
+U 4 1 5E3E3845
+P 2625 3375
+F 0 "U1" H 2625 3742 50  0000 C CNN
+F 1 "LM339" H 2625 3651 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2575 3475 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2675 3575 50  0001 C CNN
+	4    2625 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U1
+U 3 1 5E3E383F
+P 2625 2775
+F 0 "U1" H 2625 3142 50  0000 C CNN
+F 1 "LM339" H 2625 3051 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2575 2875 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2675 2975 50  0001 C CNN
+	3    2625 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U1
+U 2 1 5E3E3839
+P 2625 2175
+F 0 "U1" H 2625 2542 50  0000 C CNN
+F 1 "LM339" H 2625 2451 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2575 2275 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2675 2375 50  0001 C CNN
+	2    2625 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U1
+U 1 1 5E3E3833
+P 2625 1575
+F 0 "U1" H 2625 1942 50  0000 C CNN
+F 1 "LM339" H 2625 1851 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2575 1675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2675 1775 50  0001 C CNN
+	1    2625 1575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2925 1575 3500 1575
+Wire Wire Line
+	2925 2175 3500 2175
+Wire Wire Line
+	3500 2775 2925 2775
+Wire Wire Line
+	2925 3375 3500 3375
+Wire Wire Line
+	3500 4675 2925 4675
+Wire Wire Line
+	2925 5275 3500 5275
+Wire Wire Line
+	2925 5875 3500 5875
+Wire Wire Line
+	2925 6475 3500 6475
+Wire Wire Line
+	2225 4675 2225 4575
+Wire Wire Line
+	2225 4575 2325 4575
+Wire Wire Line
+	1775 4675 2225 4675
+$Comp
+L Comparator:LM339 U6
+U 3 1 5E31C88E
+P 2625 5875
+F 0 "U6" H 2625 6242 50  0000 C CNN
+F 1 "LM339" H 2625 6151 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2575 5975 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 2675 6075 50  0001 C CNN
+	3    2625 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2275 2750 2275 2675
+Wire Wire Line
+	2275 2675 2325 2675
+Wire Wire Line
+	2250 1550 2250 1475
+Wire Wire Line
+	2250 1475 2325 1475
+Wire Wire Line
+	1775 1550 2250 1550
+Connection ~ 2200 3475
+Wire Wire Line
+	2200 3475 2325 3475
+Connection ~ 2200 2875
+Wire Wire Line
+	2200 2875 2325 2875
+Wire Wire Line
+	2200 2875 2200 2275
+Connection ~ 2200 2275
+Wire Wire Line
+	2200 2275 2325 2275
+Wire Wire Line
+	2200 2275 2200 1675
+Wire Wire Line
+	2200 1675 2325 1675
+Wire Wire Line
+	1150 3475 2200 3475
+Wire Wire Line
+	2200 2875 2200 3475
+Wire Wire Line
+	2200 4775 2200 5375
+Wire Wire Line
+	2200 4775 2325 4775
+Connection ~ 2200 5375
+Wire Wire Line
+	2200 5375 2325 5375
+Wire Wire Line
+	2200 5375 2200 5975
+Connection ~ 2200 5975
+Wire Wire Line
+	2200 5975 2325 5975
+Wire Wire Line
+	2200 5975 2200 6575
+Connection ~ 2200 6575
+Wire Wire Line
+	2200 6575 2325 6575
+Wire Wire Line
+	1150 6575 2200 6575
+Wire Wire Line
+	2275 5850 2275 5775
+Wire Wire Line
+	2275 5775 2325 5775
+Connection ~ 1775 5175
+Wire Wire Line
+	1775 5175 2325 5175
+Wire Wire Line
+	1625 5175 1775 5175
+Connection ~ 1775 5850
+Wire Wire Line
+	1775 5850 2275 5850
+Wire Wire Line
+	1325 5850 1775 5850
+Connection ~ 1775 6375
+Wire Wire Line
+	1775 6375 2325 6375
+Wire Wire Line
+	1425 6375 1775 6375
+Connection ~ 1775 2075
+Wire Wire Line
+	1775 2075 2325 2075
+Wire Wire Line
+	1625 2075 1775 2075
+Connection ~ 1775 2750
+Wire Wire Line
+	1775 2750 2275 2750
+Wire Wire Line
+	1325 2750 1775 2750
+Connection ~ 1775 3275
+Wire Wire Line
+	1775 3275 2325 3275
+Wire Wire Line
+	1425 3275 1775 3275
 $EndSCHEMATC
