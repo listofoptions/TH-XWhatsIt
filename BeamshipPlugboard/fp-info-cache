@@ -1,4 +1,4 @@
-18298814508154399
+18303609502368524
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -231,16 +231,16 @@ SPARKFUN FLAME LOGO - 0.4" HEIGHT - SILKSCREEN
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.05
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.5
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
 0
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.5
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.05
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
 0
 0
 0
@@ -70413,9 +70413,58 @@ TH-XWhatsIt
 30
 30
 TH-XWhatsIt
-BeamSpringGroundingMountingHoleForTHOnly
+12-pin-castelated-connector
 
 
+0
+12
+12
+TH-XWhatsIt
+30-pin-castelated-connector
+
+
+0
+60
+30
+TH-XWhatsIt
+30-pin-universal-beamspring-connector
+
+
+0
+90
+30
+TH-XWhatsIt
+30-pin-universal-beamspring-connector_v2
+
+
+0
+210
+30
+TH-XWhatsIt
+30-pin-universal-beamspring-connector_v3_onlyflat
+
+
+0
+30
+30
+TH-XWhatsIt
+30-pin-universal-displaywriter-connector_v2
+
+
+0
+150
+30
+TH-XWhatsIt
+BeamSpringGroundingMountingHole
+
+
+0
+1
+1
+TH-XWhatsIt
+ChassisGnd
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
 0
 1
 1
@@ -70427,40 +70476,19 @@ DIP-60_155_ELL
 60
 60
 TH-XWhatsIt
-Model_F_3.96mm_pitch_footprint
-Through hole straight pin header, 1x30, 2.54mm pitch, single row
-Through hole pin header THT 1x30 2.54mm single row
+beamship_new
+
+
 0
-30
-30
+136
+34
 TH-XWhatsIt
-NetTie-3_THT_Pad1.0mm_mod_thicker
-Net tie, 3 pin, 1.0mm round THT pads
-net tie
-0
-3
-3
-TH-XWhatsIt
-PadsToShort
+tooling_hole
 
 
 0
-2
-2
-TH-XWhatsIt
-beamspring_connector_footprint
-
-
 0
-180
-30
-TH-XWhatsIt
-displaywriter-connector_v3
-
-
 0
-150
-30
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -82473,10 +82501,3 @@ ZIP19-1
 0
 19
 19
-promicro
-ProMicro
-Pro Micro footprint
-promicro ProMicro
-0
-24
-24

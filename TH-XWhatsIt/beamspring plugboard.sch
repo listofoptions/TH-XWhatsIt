@@ -45,7 +45,7 @@ U 1 1 5E9AB53F
 P 5200 2600
 F 0 "J7" H 5280 2592 50  0000 L CNN
 F 1 "BEAMSPRING PLUGBOARD CONNECTOR" H 5280 2501 50  0000 L CNN
-F 2 "TH-XWhatsIt:3..6mm_cardedge" H 5200 2600 50  0001 C CNN
+F 2 "TH-XWhatsIt:beamspring_connector_footprint" H 5200 2600 50  0001 C CNN
 F 3 "~" H 5200 2600 50  0001 C CNN
 	1    5200 2600
 	1    0    0    -1  
@@ -197,5 +197,18 @@ F 3 "~" H 5150 4675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 5150 4775 3    50   UnSpc ~ 0
+BSGROUND
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5F892130
+P 6250 4675
+F 0 "H5" H 6350 4724 50  0000 L CNN
+F 1 "GROUND STRAP" H 6350 4633 50  0000 L CNN
+F 2 "TH-XWhatsIt:BeamSpringGroundingMountingHoleForTHOnly" H 6250 4675 50  0001 C CNN
+F 3 "~" H 6250 4675 50  0001 C CNN
+	1    6250 4675
+	1    0    0    -1  
+$EndComp
+Text HLabel 6250 4775 3    50   UnSpc ~ 0
 BSGROUND
 $EndSCHEMATC

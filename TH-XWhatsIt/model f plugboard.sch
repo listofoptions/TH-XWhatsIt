@@ -47,7 +47,7 @@ U 1 1 5E99BBA7
 P 5400 2750
 F 0 "J4" H 5480 2742 50  0000 L CNN
 F 1 "MODEL F PLUGBOARD CONNECTOR" H 5480 2651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x30_P2.54mm_Horizontal" H 5400 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x30_P2.54mm_Vertical" H 5400 2750 50  0001 C CNN
 F 3 "~" H 5400 2750 50  0001 C CNN
 	1    5400 2750
 	1    0    0    -1  
@@ -198,4 +198,77 @@ F 3 "~" H 5200 4950 50  0001 C CNN
 $EndComp
 Text HLabel 5200 5050 3    50   UnSpc ~ 0
 MFGROUND
+$Comp
+L Connector_Generic:Conn_01x30 J14
+U 1 1 5F4406B3
+P 7550 2775
+F 0 "J14" H 7630 2767 50  0000 L CNN
+F 1 "MODEL F PLUGBOARD CONNECTOR" H 7630 2676 50  0000 L CNN
+F 2 "TH-XWhatsIt:Model_F_3.96mm_pitch_footprint" H 7550 2775 50  0001 C CNN
+F 3 "~" H 7550 2775 50  0001 C CNN
+	1    7550 2775
+	1    0    0    -1  
+$EndComp
+Text HLabel 7350 1375 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 7350 1475 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 7350 1575 0    50   Input ~ 0
+MFCOL1
+Text HLabel 7350 1675 0    50   Input ~ 0
+MFCOL2
+Text HLabel 7350 1775 0    50   Input ~ 0
+MFCOL3
+Text HLabel 7350 1875 0    50   Input ~ 0
+MFCOL4
+Text HLabel 7350 1975 0    50   Input ~ 0
+MFCOL5
+Text HLabel 7350 2075 0    50   Input ~ 0
+MFCOL6
+Text HLabel 7350 2175 0    50   Input ~ 0
+MFCOL7
+Text HLabel 7350 2275 0    50   Input ~ 0
+MFCOL8
+Text HLabel 7350 2375 0    50   Input ~ 0
+MFCOL9
+Text HLabel 7350 2475 0    50   Input ~ 0
+MFCOL10
+Text HLabel 7350 2575 0    50   Input ~ 0
+MFCOL11
+Text HLabel 7350 2675 0    50   Input ~ 0
+MFCOL12
+Text HLabel 7350 2775 0    50   Input ~ 0
+MFCOL13
+Text HLabel 7350 2875 0    50   Input ~ 0
+MFCOL14
+Text HLabel 7350 2975 0    50   Input ~ 0
+MFCOL15
+Text HLabel 7350 3075 0    50   Input ~ 0
+MFCOL16
+Text HLabel 7350 3175 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 7350 3275 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 7350 3375 0    50   BiDi ~ 0
+MFSENSE1
+Text HLabel 7350 3475 0    50   BiDi ~ 0
+MFSENSE2
+Text HLabel 7350 3575 0    50   BiDi ~ 0
+MFSENSE3
+Text HLabel 7350 3675 0    50   BiDi ~ 0
+MFSENSE4
+Text HLabel 7350 3775 0    50   BiDi ~ 0
+MFSENSE5
+Text HLabel 7350 3875 0    50   BiDi ~ 0
+MFSENSE6
+Text HLabel 7350 3975 0    50   BiDi ~ 0
+MFSENSE7
+Text HLabel 7350 4075 0    50   BiDi ~ 0
+MFSENSE8
+Text HLabel 7350 4175 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 7350 4275 0    50   UnSpc ~ 0
+MFGROUND
+Text Notes 7900 3125 0    50   ~ 0
+WIDE PINOUT HERE
 $EndSCHEMATC
