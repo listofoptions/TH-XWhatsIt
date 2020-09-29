@@ -169,8 +169,8 @@ L Mechanical:MountingHole_Pad H4
 U 1 1 5E3A0C5C
 P 6775 4825
 F 0 "H4" H 6875 4874 50  0000 L CNN
-F 1 "GROUND STRAP" H 6875 4783 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6775 4825 50  0001 C CNN
+F 1 "Grounded hole for M3 standoff" H 6875 4783 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6775 4825 50  0001 C CNN
 F 3 "~" H 6775 4825 50  0001 C CNN
 	1    6775 4825
 	1    0    0    -1  
@@ -194,7 +194,7 @@ U 1 1 5F49C915
 P 8400 2775
 F 0 "J15" H 8480 2767 50  0000 L CNN
 F 1 "Conn_01x30" H 8480 2676 50  0000 L CNN
-F 2 "TH-XWhatsIt:Model_F_3.96mm_pitch_footprint" H 8400 2775 50  0001 C CNN
+F 2 "TH-XWhatsIt:Displaywriter_with_mountinghole_footprint" H 8400 2775 50  0001 C CNN
 F 3 "~" H 8400 2775 50  0001 C CNN
 	1    8400 2775
 	1    0    0    -1  
@@ -253,4 +253,17 @@ NoConn ~ 8200 3575
 NoConn ~ 8200 1875
 NoConn ~ 8200 1975
 NoConn ~ 8200 2075
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 5FBD3723
+P 7425 5300
+F 0 "H9" H 7525 5349 50  0000 L CNN
+F 1 "Solderable ground strap" H 7525 5258 50  0000 L CNN
+F 2 "TH-XWhatsIt:ChassisGnd" H 7425 5300 50  0001 C CNN
+F 3 "~" H 7425 5300 50  0001 C CNN
+	1    7425 5300
+	1    0    0    -1  
+$EndComp
+Text HLabel 7425 5400 3    50   UnSpc ~ 0
+DWGROUND
 $EndSCHEMATC

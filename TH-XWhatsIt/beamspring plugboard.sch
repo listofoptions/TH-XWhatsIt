@@ -190,8 +190,8 @@ L Mechanical:MountingHole_Pad H3
 U 1 1 5E3A02A4
 P 5150 4675
 F 0 "H3" H 5250 4724 50  0000 L CNN
-F 1 "GROUND STRAP" H 5250 4633 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5150 4675 50  0001 C CNN
+F 1 "Grounded hole for M3 standoff" H 5250 4633 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5150 4675 50  0001 C CNN
 F 3 "~" H 5150 4675 50  0001 C CNN
 	1    5150 4675
 	1    0    0    -1  
@@ -201,14 +201,27 @@ BSGROUND
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 5F892130
-P 6250 4675
-F 0 "H5" H 6350 4724 50  0000 L CNN
-F 1 "GROUND STRAP" H 6350 4633 50  0000 L CNN
-F 2 "TH-XWhatsIt:BeamSpringGroundingMountingHoleForTHOnly" H 6250 4675 50  0001 C CNN
-F 3 "~" H 6250 4675 50  0001 C CNN
-	1    6250 4675
+P 6000 5025
+F 0 "H5" H 6100 5074 50  0000 L CNN
+F 1 "Beamspring Mounting Hole" H 6100 4983 50  0000 L CNN
+F 2 "TH-XWhatsIt:BeamSpringGroundingMountingHoleForTHOnly" H 6000 5025 50  0001 C CNN
+F 3 "~" H 6000 5025 50  0001 C CNN
+	1    6000 5025
 	1    0    0    -1  
 $EndComp
-Text HLabel 6250 4775 3    50   UnSpc ~ 0
+Text HLabel 6000 5125 3    50   UnSpc ~ 0
+BSGROUND
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 5FBD52CB
+P 6925 5475
+F 0 "H8" H 7025 5524 50  0000 L CNN
+F 1 "Solderable ground strap" H 7025 5433 50  0000 L CNN
+F 2 "TH-XWhatsIt:ChassisGnd" H 6925 5475 50  0001 C CNN
+F 3 "~" H 6925 5475 50  0001 C CNN
+	1    6925 5475
+	1    0    0    -1  
+$EndComp
+Text HLabel 6925 5575 3    50   UnSpc ~ 0
 BSGROUND
 $EndSCHEMATC
