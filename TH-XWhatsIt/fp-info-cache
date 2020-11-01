@@ -1,4 +1,4 @@
-18298814508154399
+18306839894203399
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -231,16 +231,16 @@ SPARKFUN FLAME LOGO - 0.4" HEIGHT - SILKSCREEN
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.05
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.5
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
 0
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.5
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.05
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
 0
 0
 0
@@ -70420,12 +70420,40 @@ BeamSpringGroundingMountingHoleForTHOnly
 1
 1
 TH-XWhatsIt
+ChassisGnd
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+1
+1
+TH-XWhatsIt
 DIP-60_155_ELL
 
 
 0
 60
 60
+TH-XWhatsIt
+Displaywriter_with_mountinghole_footprint
+Through hole straight pin header, 1x30, 2.54mm pitch, single row
+Through hole pin header THT 1x30 2.54mm single row
+0
+90
+30
+TH-XWhatsIt
+ModelF_new_mounting_hole_left
+
+
+0
+2
+1
+TH-XWhatsIt
+ModelF_new_mounting_hole_right
+
+
+0
+2
+1
 TH-XWhatsIt
 Model_F_3.96mm_pitch_footprint
 Through hole straight pin header, 1x30, 2.54mm pitch, single row
@@ -70448,6 +70476,13 @@ PadsToShort
 2
 2
 TH-XWhatsIt
+beamship_new
+
+
+0
+136
+34
+TH-XWhatsIt
 beamspring_connector_footprint
 
 
@@ -70459,7 +70494,7 @@ displaywriter-connector_v3
 
 
 0
-150
+180
 30
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm

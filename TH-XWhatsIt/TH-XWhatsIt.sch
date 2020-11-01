@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 4
 Title "TH-XWhatsIt combined beamspring and model f controller"
 Date "2020-01-31"
-Rev "0.0.3"
+Rev "0.1.1"
 Comp "Rainy Day Plans"
 Comment1 ""
 Comment2 ""
@@ -958,30 +958,28 @@ F 3 "" H 8475 1500 50  0001 C CNN
 	1    8475 1500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10550 2825 10425 2825
-Text Notes 9975 2500 0    50   ~ 0
+Text Notes 10450 3550 0    50   ~ 0
 STARPOINT POWER\nCONNECTIONS AT\nCONTROLLER
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5E90A976
-P 7200 5775
-F 0 "H1" H 7300 5824 50  0000 L CNN
-F 1 "GROUND STRAP" H 7300 5733 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 7200 5775 50  0001 C CNN
-F 3 "~" H 7200 5775 50  0001 C CNN
-	1    7200 5775
+P 6700 6025
+F 0 "H1" H 6800 6074 50  0000 L CNN
+F 1 "Grounded hole for M3 standoff" H 6800 5983 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6700 6025 50  0001 C CNN
+F 3 "~" H 6700 6025 50  0001 C CNN
+	1    6700 6025
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR0148
 U 1 1 5E90B41B
-P 7200 5875
-F 0 "#PWR0148" H 7200 5625 50  0001 C CNN
-F 1 "GNDA" H 7205 5702 50  0000 C CNN
-F 2 "" H 7200 5875 50  0001 C CNN
-F 3 "" H 7200 5875 50  0001 C CNN
-	1    7200 5875
+P 6700 6125
+F 0 "#PWR0148" H 6700 5875 50  0001 C CNN
+F 1 "GNDA" H 6705 5952 50  0000 C CNN
+F 2 "" H 6700 6125 50  0001 C CNN
+F 3 "" H 6700 6125 50  0001 C CNN
+	1    6700 6125
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -1261,17 +1259,6 @@ F 3 "~" H 5725 6550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Net-Tie_3 NT1
-U 1 1 5F549EF2
-P 10650 2825
-F 0 "NT1" H 10625 2650 50  0000 C CNN
-F 1 "Net-Tie_3" H 10625 2575 50  0000 C CNN
-F 2 "TH-XWhatsIt:NetTie-3_THT_Pad1.0mm_mod_thicker" H 10650 2825 50  0001 C CNN
-F 3 "~" H 10650 2825 50  0001 C CNN
-	1    10650 2825
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+5VD #PWR0110
 U 1 1 5E81915B
 P 10750 3025
@@ -1548,4 +1535,34 @@ Wire Wire Line
 	1775 3275 2325 3275
 Wire Wire Line
 	1425 3275 1775 3275
+Wire Wire Line
+	10425 2825 10750 2825
+Wire Wire Line
+	10750 2725 10425 2725
+Wire Wire Line
+	10425 2725 10425 2825
+Text Notes 10275 2575 0    50   ~ 0
+STAR GROUND REMOVED
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5FBAD0AC
+P 6200 5675
+F 0 "H6" H 6300 5724 50  0000 L CNN
+F 1 "Solderable ground strap" H 6300 5633 50  0000 L CNN
+F 2 "TH-XWhatsIt:ChassisGnd" H 6200 5675 50  0001 C CNN
+F 3 "~" H 6200 5675 50  0001 C CNN
+	1    6200 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0127
+U 1 1 5FBAD3F8
+P 6200 5775
+F 0 "#PWR0127" H 6200 5525 50  0001 C CNN
+F 1 "GNDA" H 6205 5602 50  0000 C CNN
+F 2 "" H 6200 5775 50  0001 C CNN
+F 3 "" H 6200 5775 50  0001 C CNN
+	1    6200 5775
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

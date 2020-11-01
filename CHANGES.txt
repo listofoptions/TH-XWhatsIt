@@ -64,3 +64,29 @@ August 22-23, 2020
             Added Beamship plugboard to a separate subfolder. Not added to the default panel because it's too rare.
             Bumped revision to 0.0.3
             Added revision to silkscreen.
+November 1, 2020 - Revision 0.1.1
+    user: pandrew
+        done:
+            General:
+                Made mounting hole bigger (M3). And moved it a little bit so it doesn't interfere with some components.
+                Star ground turned into single ground.
+                Ground fills added everywhere.
+                Many stitching vias added everywhere.
+                Added JLCJLCJLCJLC magic string under pro micro. When ordering from JLCPCB, you can select for Order Number: "Specify Location"
+                Bumped version number to 0.1.1
+                Added silkscreen to mark rows/columns everywhere.
+                Added optional holes for soldering grounding wires everywhere.
+            Controller:
+                Added silkscreen to ease debugging, by marking various important nets.
+                Rearranged some traces to maintain better separation between traces, and better ground reference.
+            Model F plugboard:
+                Modified 3.96mm pitch holes, to hole sizes and pad sizes that match original xwhatsit model F controller
+                Moved 3.96mm pitch holes closer to the edge, so it doesn't interfere with case in F AT cases.
+                Added mounting holes
+                Added holes to support 3178 keyboards.
+            Displaywriter:
+                Addes support for more connector types. (The displaywriter daughterboard is now taller)
+            Beamspring:
+                Bugfix to a mistake that only affected people that ran update footprints from library.
+            Beamship daughterboard:
+                Added support for more connectors. Added breakoff-able mounting hole.

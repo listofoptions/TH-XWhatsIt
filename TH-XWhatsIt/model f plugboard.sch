@@ -186,19 +186,6 @@ MFGROUND
 Text Notes 3950 7750 0    50   ~ 0
 Copyright Rainy Day Plans.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable\nconditions
 $Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5E39F8A0
-P 5200 4950
-F 0 "H2" H 5300 4999 50  0000 L CNN
-F 1 "GROUND STRAP" H 5300 4908 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5200 4950 50  0001 C CNN
-F 3 "~" H 5200 4950 50  0001 C CNN
-	1    5200 4950
-	1    0    0    -1  
-$EndComp
-Text HLabel 5200 5050 3    50   UnSpc ~ 0
-MFGROUND
-$Comp
 L Connector_Generic:Conn_01x30 J14
 U 1 1 5F4406B3
 P 7550 2775
@@ -271,4 +258,116 @@ Text HLabel 7350 4275 0    50   UnSpc ~ 0
 MFGROUND
 Text Notes 7900 3125 0    50   ~ 0
 WIDE PINOUT HERE
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5FBD8F2F
+P 5700 5350
+F 0 "H7" H 5800 5399 50  0000 L CNN
+F 1 "Solderable ground strap" H 5800 5308 50  0000 L CNN
+F 2 "TH-XWhatsIt:ChassisGnd" H 5700 5350 50  0001 C CNN
+F 3 "~" H 5700 5350 50  0001 C CNN
+	1    5700 5350
+	1    0    0    -1  
+$EndComp
+Text HLabel 5700 5450 3    50   UnSpc ~ 0
+MFGROUND
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 5FBE55BC
+P 6275 5700
+F 0 "H10" H 6375 5749 50  0000 L CNN
+F 1 "Left Mountinghole" H 6375 5658 50  0000 L CNN
+F 2 "TH-XWhatsIt:ModelF_new_mounting_hole_left" H 6275 5700 50  0001 C CNN
+F 3 "~" H 6275 5700 50  0001 C CNN
+	1    6275 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 5FBE5981
+P 6875 6000
+F 0 "H11" H 6975 6049 50  0000 L CNN
+F 1 "Right Mountinghole" H 6975 5958 50  0000 L CNN
+F 2 "TH-XWhatsIt:ModelF_new_mounting_hole_right" H 6875 6000 50  0001 C CNN
+F 3 "~" H 6875 6000 50  0001 C CNN
+	1    6875 6000
+	1    0    0    -1  
+$EndComp
+Text HLabel 6275 5800 3    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 6875 6100 3    50   UnSpc ~ 0
+MFGROUND
+Text Notes 10150 4800 0    50   ~ 0
+IBM 3178\n
+$Comp
+L Connector_Generic:Conn_01x30 J16
+U 1 1 5FC4E3EA
+P 9750 4300
+F 0 "J16" H 9830 4292 50  0000 L CNN
+F 1 "MODEL F PLUGBOARD CONNECTOR" H 9830 4201 50  0000 L CNN
+F 2 "TH-XWhatsIt:Model_F_3.96mm_pitch_footprint" H 9750 4300 50  0001 C CNN
+F 3 "~" H 9750 4300 50  0001 C CNN
+	1    9750 4300
+	1    0    0    -1  
+$EndComp
+Text HLabel 9550 3700 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 9550 3600 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 9550 3800 0    50   Input ~ 0
+MFCOL5
+Text HLabel 9550 3900 0    50   Input ~ 0
+MFCOL6
+Text HLabel 9550 4000 0    50   Input ~ 0
+MFCOL7
+Text HLabel 9550 4100 0    50   Input ~ 0
+MFCOL8
+Text HLabel 9550 4200 0    50   Input ~ 0
+MFCOL9
+Text HLabel 9550 4300 0    50   Input ~ 0
+MFCOL10
+Text HLabel 9550 4400 0    50   Input ~ 0
+MFCOL11
+Text HLabel 9550 4500 0    50   Input ~ 0
+MFCOL12
+Text HLabel 9550 4600 0    50   Input ~ 0
+MFCOL13
+Text HLabel 9550 4700 0    50   Input ~ 0
+MFCOL14
+Text HLabel 9550 4800 0    50   Input ~ 0
+MFCOL15
+Text HLabel 9550 4900 0    50   Input ~ 0
+MFCOL16
+Text HLabel 9550 3500 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 9550 3400 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 9550 5100 0    50   BiDi ~ 0
+MFSENSE1
+Text HLabel 9550 5200 0    50   BiDi ~ 0
+MFSENSE2
+Text HLabel 9550 5300 0    50   BiDi ~ 0
+MFSENSE3
+Text HLabel 9550 5400 0    50   BiDi ~ 0
+MFSENSE4
+Text HLabel 9550 5500 0    50   BiDi ~ 0
+MFSENSE5
+Text HLabel 9550 5600 0    50   BiDi ~ 0
+MFSENSE6
+Text HLabel 9550 5700 0    50   BiDi ~ 0
+MFSENSE7
+Text HLabel 9550 5800 0    50   BiDi ~ 0
+MFSENSE8
+Text HLabel 9550 5000 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 9550 3300 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 9550 3200 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 9550 3100 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 9550 3000 0    50   UnSpc ~ 0
+MFGROUND
+Text HLabel 9550 2900 0    50   UnSpc ~ 0
+MFGROUND
 $EndSCHEMATC

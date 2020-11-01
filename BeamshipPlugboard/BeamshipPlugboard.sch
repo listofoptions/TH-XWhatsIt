@@ -187,7 +187,7 @@ U 1 1 5F1E2E93
 P 7350 2650
 F 0 "J7" H 7430 2642 50  0000 L CNN
 F 1 "Conn_01x34" H 7430 2551 50  0000 L CNN
-F 2 "TH-XWhatsIt:beamship_new" H 7350 2650 50  0001 C CNN
+F 2 "TH-XWhatsIt:beamship_new_2" H 7350 2650 50  0001 C CNN
 F 3 "~" H 7350 2650 50  0001 C CNN
 	1    7350 2650
 	1    0    0    -1  
@@ -209,4 +209,30 @@ Text HLabel 7150 4250 0    50   BiDi ~ 0
 BSSENSE7
 Text HLabel 7150 4350 0    50   BiDi ~ 0
 BSSENSE8
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F9ED074
+P 6200 4675
+F 0 "H1" H 6300 4724 50  0000 L CNN
+F 1 "Grounded hole for M3 standoff" H 6300 4633 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6200 4675 50  0001 C CNN
+F 3 "~" H 6200 4675 50  0001 C CNN
+	1    6200 4675
+	1    0    0    -1  
+$EndComp
+Text HLabel 6200 4775 3    50   UnSpc ~ 0
+BSGROUND
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F9EA590
+P 8125 4725
+F 0 "H2" H 8225 4774 50  0000 L CNN
+F 1 "BEAMSHIP MOUNTING HOLE" H 8225 4683 50  0000 L CNN
+F 2 "TH-XWhatsIt:beamship_mounting_hole" H 8125 4725 50  0001 C CNN
+F 3 "~" H 8125 4725 50  0001 C CNN
+	1    8125 4725
+	1    0    0    -1  
+$EndComp
+Text HLabel 8125 4825 3    50   UnSpc ~ 0
+BSGROUND
 $EndSCHEMATC
