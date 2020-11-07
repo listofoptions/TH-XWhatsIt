@@ -13,7 +13,7 @@
   (title_block
     (title "TH-XWhatsIt Controller pcb and optional plugboards")
     (date 2020-01-31)
-    (rev 0.0.3)
+    (rev 0.1.1)
     (company "Rainy Day Plans")
     (comment 1 "if plugboards are not needed, delete them ")
     (comment 4 "Licenced under CERN OHL Version 1.2")
