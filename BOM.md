@@ -28,9 +28,9 @@
         * female 27-pin pinheader (straight, through hole)
         * male 12-pin pinheader (straight, through hole)
         * female 12-pin pinheader (straight, through hole)
-    * You can buy pin pinheaders with more pins then necessary, and cut them. You can use two 1-row pin headers to make a vertical Solenoid connector.
+    * You can buy pinheaders with more pins then necessary, and cut them. You can use two 1-row pin headers to make a vertical Solenoid connector.
 
-## Notes regarding other revisions:
+## Notes regarding older revisions:
 
 * Previous revisions can't fit an M3 standoff, so you have to get an M2 standoff
 * Combining daughtercard/motherboard from different revisions is possible, (the pin headers are in the same relative positions), but the hole that can be used for a standoff is in a slightly different position, so if combining you can't use standoffs
