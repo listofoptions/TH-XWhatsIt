@@ -90,3 +90,8 @@ November 1, 2020 - Revision 0.1.1
                 Bugfix to a mistake that only affected people that ran update footprints from library.
             Beamship daughterboard:
                 Added support for more connectors. Added breakoff-able mounting hole.
+November 7, 2020
+    user: pandrew
+        done:
+            Fix up revision number in PCB file title block. Revision was already correct in schematic and silkscreen.
+            Added documentation: BOM.md, ERRATA.md, PCB_ORDERING_INSTRUCTIONS.md
