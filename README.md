@@ -1,8 +1,8 @@
 through hole implementation of the capsense controllers by XWhatsIt
-(Tom Wong-Cornell). original liscencure holds, as well as CERN OSH
+(Tom Wong-Cornall). original liscencure holds, as well as CERN OSH
 (compatible license).
 
-original implementation of Tom Wong-Cornell's controller documented here
+original implementation of Tom Wong-Cornall's controller documented here
 
 http://downloads.cornall.co/ibm-capsense-usb-web/ibm-capsense-usb.html
 

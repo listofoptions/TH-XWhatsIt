@@ -140,7 +140,7 @@ AR Path="/5F5CA487" Ref="J?"  Part="1"
 AR Path="/5E995B14/5F5CA487" Ref="J8"  Part="1" 
 F 0 "J8" H 6755 2767 50  0000 L CNN
 F 1 "DISPLAYWRITER CONNECTOR" H 6755 2676 50  0000 L CNN
-F 2 "TH-XWhatsIt:30-pin-universal-beamspring-connector" H 6675 2775 50  0001 C CNN
+F 2 "TH-XWhatsIt:30-pin-universal-displaywriter-connector_v2" H 6675 2775 50  0001 C CNN
 F 3 "~" H 6675 2775 50  0001 C CNN
 	1    6675 2775
 	1    0    0    -1  
