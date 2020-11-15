@@ -50,7 +50,7 @@ An octopart BOM has been assembled here: [link](https://octopart.com/bom-tool/UL
 * [Go to this URL](https://www.tme.eu/ro/en/Profile/QuickBuy/load.html)
 * Click "Uploading products from a file"
 * Select "csv"
-* Select "tme_bom.csv" from this folder.
+* Select [tme_bom.csv](tme_bom.csv) from this folder.
 * Click Upload
 * Click Add to Order
 * Note: quantities have been adjusted for minimum order amounts.
