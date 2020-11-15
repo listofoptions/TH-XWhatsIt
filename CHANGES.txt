@@ -99,8 +99,11 @@ November 15, 2020
     user: pandrew
         done:
             BOM: changed TME examples from carbon film resistors to metal film resistors
+            BOM: reformatted some links
             BOM: recommendation that 100k resistors/resistor networks should be high precision.
             BOM: added LCSC examples
             BOM: added Aliexpress M3 standoff/screw/nut/washer/... kit
+            BOM: added digikey and mouser items
+            BOM: added link to octopart.com bom
 
 
