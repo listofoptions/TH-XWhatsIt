@@ -105,5 +105,6 @@ November 15, 2020
             BOM: added Aliexpress M3 standoff/screw/nut/washer/... kit
             BOM: added digikey and mouser items
             BOM: added link to octopart.com bom
+            BOM: added tme bom csv, and guide how to upload
 
 

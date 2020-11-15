@@ -45,7 +45,17 @@
 
 An octopart BOM has been assembled here: [link](https://octopart.com/bom-tool/UL7oTH6f)
 
-## Sources
+## TME quick buy - uploading products from a file:
+
+* [Go to this URL](https://www.tme.eu/ro/en/Profile/QuickBuy/load.html)
+* Click "Uploading products from a file"
+* Select "csv"
+* Select "tme_bom.csv" from this folder.
+* Click Upload
+* Click Add to Order
+* Note: quantities have been adjusted for minimum order amounts.
+
+## Individual links to various sources
 
 All links in this document may become out of date. They may become unavailable, or price changes may make them not be good options anymore. Please do your own research before committing to buy.
 
