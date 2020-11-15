@@ -95,3 +95,12 @@ November 7, 2020
         done:
             Fix up revision number in PCB file title block. Revision was already correct in schematic and silkscreen.
             Added documentation: BOM.md, ERRATA.md, PCB_ORDERING_INSTRUCTIONS.md
+November 15, 2020
+    user: pandrew
+        done:
+            BOM: changed TME examples from carbon film resistors to metal film resistors
+            BOM: recommendation that 100k resistors/resistor networks should be high precision.
+            BOM: added LCSC examples
+            BOM: added Aliexpress M3 standoff/screw/nut/washer/... kit
+
+
