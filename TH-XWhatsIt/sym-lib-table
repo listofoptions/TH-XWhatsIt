@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/../libraries/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
+  (lib (name fatlocklights)(type Legacy)(uri ${KIPRJMOD}/../libraries/model_f_at_locklights_sym.lib)(options "")(descr ""))
 )

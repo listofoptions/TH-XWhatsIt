@@ -112,5 +112,7 @@ December 7, 2020 - Revision 0.1.2
             Made left side of all plugboards 1.5mm shorter (the cutout for the solenoid header is 1.5mm bigger)
                 this makes some connectors fit more comfortably
             Bumped revision number
+            Added locklights header (this lengthens the controller a little bit, and added cutouts to the daughtercards too.)
+            Bumped revision number
 
 
