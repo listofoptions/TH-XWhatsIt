@@ -4,7 +4,7 @@ This document only describes what changes must be made to each revision for it t
 For a full list of changes, please see CHANGES.txt
 
 
-## Revision 0.1.1 (Rev. 0.1.1 on silkscreen) (released 2020/nov/01)
+## Revision >= 0.1.1 (Rev. 0.1.1 on silkscreen) (released 2020/nov/01)
 Git hash: 9028ddaa2e20d55d37fc6f7d3809adf717919eb1  
 Schematic rev. was bumped to 0.1.1, PCB file revision was forgotten at 0.0.3  
 please consider only git hash or revision that is mentioned on silkscreen for accurate revision identification.  

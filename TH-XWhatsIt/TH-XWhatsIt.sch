@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 4
 Title "TH-XWhatsIt combined beamspring and model f controller"
 Date "2020-01-31"
-Rev "0.1.1"
+Rev "0.1.2"
 Comp "Rainy Day Plans"
 Comment1 ""
 Comment2 ""
