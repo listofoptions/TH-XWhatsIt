@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 4
 Title "TH-XWhatsIt combined beamspring and model f controller"
 Date "2020-01-31"
-Rev "0.1.1"
+Rev "0.1.3"
 Comp "Rainy Day Plans"
 Comment1 ""
 Comment2 ""
@@ -90,8 +90,6 @@ Text GLabel 4875 1675 0    50   Input ~ 0
 LOADCOL
 Text GLabel 4875 1375 0    50   Input ~ 0
 CLOCK
-Text GLabel 4875 1775 0    50   Input ~ 0
-~OE
 $Comp
 L Device:R_Network04_US RN3
 U 1 1 5E33600B
@@ -222,8 +220,6 @@ Wire Wire Line
 Connection ~ 4875 2750
 Wire Wire Line
 	4875 2700 4875 2750
-Text GLabel 4875 3550 0    50   Input ~ 0
-~OE
 $Comp
 L 74xx:74HCT595 U8
 U 1 1 5E395D6D
@@ -253,8 +249,6 @@ Wire Wire Line
 Connection ~ 4875 4525
 Wire Wire Line
 	4875 4475 4875 4525
-Text GLabel 4875 5325 0    50   Input ~ 0
-~OE
 Text GLabel 5675 2075 2    50   Output ~ 0
 SERIALOUT1
 Text GLabel 5675 3850 2    50   Output ~ 0
@@ -372,8 +366,6 @@ Wire Wire Line
 	3050 6900 3050 6950
 Text GLabel 9850 3425 2    50   Output ~ 0
 LOADCOL
-Text GLabel 9850 3825 2    50   Output ~ 0
-~OE
 $Comp
 L Connector_Generic:Conn_01x27 J1
 U 1 1 5E5361D0
@@ -983,22 +975,10 @@ F 3 "" H 6700 6125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 8225 4175 2450 500 
-U 5E97697F
-F0 "model f plugboard" 50
-F1 "model f plugboard.sch" 50
-$EndSheet
-$Sheet
-S 8225 4900 2450 500 
+S 9800 4925 1250 500 
 U 5E9772A5
 F0 "beamspring plugboard" 50
 F1 "beamspring plugboard.sch" 50
-$EndSheet
-$Sheet
-S 8225 5625 2450 500 
-U 5E995B14
-F0 "displaywriter plugboard" 50
-F1 "displaywriter plugboard.sch" 50
 $EndSheet
 Text GLabel 7050 3925 0    50   Output ~ 0
 SENSE1
@@ -1050,21 +1030,21 @@ F 3 "" H 7450 5425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 7450 5225 2    50   BiDi ~ 0
-HEADER3
+HEADER3_ENABLE
 Text GLabel 7450 5325 2    50   BiDi ~ 0
-HEADER4
+HEADER4_TRIGGER
 Text GLabel 8450 3525 0    50   BiDi ~ 0
-HEADER1
+HEADER1_NUMLCK
 Text GLabel 8450 3625 0    50   BiDi ~ 0
-HEADER2
+HEADER2_CAPSLCK
 Text GLabel 8450 2725 0    50   BiDi ~ 0
-HEADER3
+HEADER3_ENABLE
 Text GLabel 8450 2825 0    50   BiDi ~ 0
-HEADER4
+HEADER4_TRIGGER
 Text GLabel 6950 5425 0    50   BiDi ~ 0
-HEADER2
+HEADER2_CAPSLCK
 Text GLabel 6950 5325 0    50   BiDi ~ 0
-HEADER1
+HEADER1_NUMLCK
 Text Notes 3950 7750 0    50   ~ 0
 Copyright Rainy Day Plans.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable\nconditions
 Text GLabel 10600 1400 2    50   Output ~ 0
@@ -1565,4 +1545,143 @@ F 3 "" H 6200 5775 50  0001 C CNN
 	1    6200 5775
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GNDD #PWR01
+U 1 1 5FCF2103
+P 4825 1825
+F 0 "#PWR01" H 4825 1575 50  0001 C CNN
+F 1 "GNDD" H 4829 1670 50  0000 C CNN
+F 2 "" H 4825 1825 50  0001 C CNN
+F 3 "" H 4825 1825 50  0001 C CNN
+	1    4825 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR02
+U 1 1 5FCF2E36
+P 4825 3600
+F 0 "#PWR02" H 4825 3350 50  0001 C CNN
+F 1 "GNDD" H 4829 3445 50  0000 C CNN
+F 2 "" H 4825 3600 50  0001 C CNN
+F 3 "" H 4825 3600 50  0001 C CNN
+	1    4825 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR03
+U 1 1 5FCF5D69
+P 4825 5375
+F 0 "#PWR03" H 4825 5125 50  0001 C CNN
+F 1 "GNDD" H 4829 5220 50  0000 C CNN
+F 2 "" H 4825 5375 50  0001 C CNN
+F 3 "" H 4825 5375 50  0001 C CNN
+	1    4825 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 5375 4825 5325
+Wire Wire Line
+	4825 5325 4875 5325
+Wire Wire Line
+	4825 3600 4825 3550
+Wire Wire Line
+	4825 3550 4875 3550
+Wire Wire Line
+	4825 1825 4825 1775
+Wire Wire Line
+	4825 1775 4875 1775
+$Sheet
+S 9800 4200 1250 500 
+U 5E97697F
+F0 "model f plugboard" 50
+F1 "model f plugboard.sch" 50
+$EndSheet
+$Sheet
+S 9800 5650 1250 500 
+U 5E995B14
+F0 "displaywriter plugboard" 50
+F1 "displaywriter plugboard.sch" 50
+$EndSheet
+Text GLabel 9850 3825 2    50   BiDi ~ 0
+HEADER5_SCRLCK
+$Comp
+L fatlocklights:Conn_02x04_Odd_Even J17
+U 1 1 5FD7300D
+P 8125 4700
+F 0 "J17" H 7990 5023 50  0000 C CNN
+F 1 "Locklights" H 7990 4932 50  0000 C CNN
+F 2 "TH-XWhatsIt:FAT_LockLightsConnector" H 8125 4700 50  0001 C CNN
+F 3 "~" H 8125 4700 50  0001 C CNN
+	1    8125 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR04
+U 1 1 5FD74441
+P 7925 4800
+F 0 "#PWR04" H 7925 4550 50  0001 C CNN
+F 1 "GNDD" V 7929 4690 50  0000 R CNN
+F 2 "" H 7925 4800 50  0001 C CNN
+F 3 "" H 7925 4800 50  0001 C CNN
+	1    7925 4800
+	0    1    1    0   
+$EndComp
+NoConn ~ 7925 4700
+$Comp
+L power:+5VD #PWR05
+U 1 1 5FD7927F
+P 7925 4900
+F 0 "#PWR05" H 7925 4750 50  0001 C CNN
+F 1 "+5VD" V 7940 5028 50  0000 L CNN
+F 2 "" H 7925 4900 50  0001 C CNN
+F 3 "" H 7925 4900 50  0001 C CNN
+	1    7925 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5FD7A089
+P 8575 4600
+F 0 "R14" V 8525 4775 50  0000 C CNN
+F 1 "330" V 8575 4600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8505 4600 50  0001 C CNN
+F 3 "~" H 8575 4600 50  0001 C CNN
+	1    8575 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5FD7C563
+P 8575 4700
+F 0 "R15" V 8525 4875 50  0000 C CNN
+F 1 "330" V 8575 4700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8505 4700 50  0001 C CNN
+F 3 "~" H 8575 4700 50  0001 C CNN
+	1    8575 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5FD7E99A
+P 8575 4800
+F 0 "R16" V 8525 4975 50  0000 C CNN
+F 1 "330" V 8575 4800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8505 4800 50  0001 C CNN
+F 3 "~" H 8575 4800 50  0001 C CNN
+	1    8575 4800
+	0    1    1    0   
+$EndComp
+NoConn ~ 8425 4900
+Text GLabel 8825 4600 2    50   BiDi ~ 0
+HEADER2_CAPSLCK
+Text GLabel 8825 4700 2    50   BiDi ~ 0
+HEADER1_NUMLCK
+Text GLabel 8825 4800 2    50   BiDi ~ 0
+HEADER5_SCRLCK
+Wire Wire Line
+	8725 4600 8825 4600
+Wire Wire Line
+	8825 4700 8725 4700
+Wire Wire Line
+	8725 4800 8825 4800
 $EndSCHEMATC
