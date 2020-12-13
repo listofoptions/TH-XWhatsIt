@@ -1,6 +1,6 @@
 # Bill Of Materials
 
-## To build 1 pcs of the TH Xwhatsit controller Rev. 0.1.1, you need:
+## To build 1 pcs of the TH Xwhatsit controller Rev. 0.1.2, you need:
 
 * 1pcs "Pro Micro 5V/16MHz" development board
     * 2pcs male 12-pin header (usually comes included with the Pro Micro)
@@ -13,6 +13,8 @@
 * 1pcs 1K through hole 0.25W resistor (better if subminiature type, metal film)
 * 2pcs 20K through hole 0.25W resistors (better if subminiature type, metal film)
 * 2pcs 4.7K through hole 0.25W resistors (better if subminiature type, metal film)
+* 3pcs 330ohm through hole 0.25W resistors (better if subminiature type, metal film) (new in v0.1.2)
+    * Optional if not using lock lights
 * 100kohm Resistor Networks, or Resistors, two options:
     * These are recommended to be high precision (1% or 2%), but the design will likely work with 5% resistors too.
     * Option 1: 2pcs 100K 5-pin resistor networks
@@ -25,6 +27,8 @@
 * 2.54 mm pitch through hole pin headers:
     * Optional if not using Solenoid/Expansion header:
         * 2x3-pin male pinheader (through-hole, can be vertical or 90-degree)
+    * Optional if not using lock lights:
+        * 2x4-pin male pinheader, (with 1 pin manually removed) (through-hole, can be vertical or 90-degree)
     * Optional if soldering wires directly to the motherboard, and not using the daughtercards:
         * male 27-pin pinheader (straight, through hole)
         * female 27-pin pinheader (straight, through hole)
@@ -135,6 +139,14 @@ All links in this document may become out of date. They may become unavailable, 
     * LCSC: LCSC Part # [C433477](https://lcsc.com/product-detail/Metal-Film-Resistor-TH_TyoHM-RN-1-8W-4K7-F-T-B-A1_C433477.html)
     * Digikey: Digi-Key Part Number: [BC3275CT-ND](https://www.digikey.com/en/products/detail/MBA02040C4701FCT00/BC3275CT-ND/6138778)
     * Mouser: Mouser No: [594-5063JD4K700F5](https://eu.mouser.com/ProductDetail/Vishay-Beyschlag/MBA02040C4701FCT00?qs=%2Fha2pyFaduhdxPPbXRtwp14%252BOd3NrR4qjYAqlfO7AOn4IAkYilba3w%3D%3D)
+* 330ohm resistors:
+    * TME variants:
+      * TME Symbol: [MBA02040C3300FCT00](https://www.tme.eu/ro/en/details/mba02040c3300fct00/0-4w-metal-film-tht-resistors/vishay/)
+      * TME Symbol: [MRS16000C3300FCT00](https://www.tme.eu/ro/en/details/mrs16000c3300fct00/0-4w-metal-film-tht-resistors/vishay/)
+      * TME Symbol: [M0.4W-330R](https://www.tme.eu/ro/en/details/m0.4w-330r/0-4w-metal-film-tht-resistors/royal-ohm/mff04ff3300a50/)
+    * LCSC: LCSC Part # [C433480](https://lcsc.com/product-detail/Metal-Film-Resistor-TH_TyoHM-RN-1-8W-330R-F-T-B-A1_C433480.html)
+    * Digikey: Digi-Key Part Number: [BC3933CT-ND](https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MRS16000C3300FCT00/7351363)
+    * Mouser: Mouser No: [594-5063JD330R0F](https://eu.mouser.com/ProductDetail/Vishay-Beyschlag/MBA02040C3300FC100?qs=sGAEpiMZZMsPqMdJzcrNwkfQgWkDJ%252BE2brdKXAzsTGM%3D)
 * 100kohm resistor networks (either get the resistor networks, or individual resistors, not both):
     * TME variants:
       * TME Symbol for 2% precision resistor network (was out of stock on 15 nov. 2020): [4605X-101-104LF](https://www.tme.eu/ro/en/details/4605x-101-104lf/tht-resistor-networks/bourns/)

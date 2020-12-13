@@ -106,7 +106,7 @@ November 15, 2020
             BOM: added digikey and mouser items
             BOM: added link to octopart.com bom
             BOM: added tme bom csv, and guide how to upload
-December 7, 2020 - Revision 0.1.2
+December 13, 2020 - Revision 0.1.2
     user: pandrew
         done:
             Made left side of all plugboards 1.5mm shorter (the cutout for the solenoid header is 1.5mm bigger)
@@ -114,5 +114,6 @@ December 7, 2020 - Revision 0.1.2
             Bumped revision number
             Added locklights header (this lengthens the controller a little bit, and added cutouts to the daughtercards too.)
             Bumped revision number
+            Updated BOM.
 
 
