@@ -115,5 +115,9 @@ December 13, 2020 - Revision 0.1.2
             Added locklights header (this lengthens the controller a little bit, and added cutouts to the daughtercards too.)
             Bumped revision number
             Updated BOM.
+January 26, 2021
+    user: pandrew
+        done:
+            Beamship Plugboard -- added extra grounding hole.
 
 
