@@ -235,4 +235,17 @@ F 3 "~" H 8125 4725 50  0001 C CNN
 $EndComp
 Text HLabel 8125 4825 3    50   UnSpc ~ 0
 BSGROUND
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 600FC64C
+P 5175 5650
+F 0 "H4" H 5275 5699 50  0000 L CNN
+F 1 "GROUND STRAP" H 5275 5608 50  0000 L CNN
+F 2 "TH-XWhatsIt:ChassisGnd" H 5175 5650 50  0001 C CNN
+F 3 "~" H 5175 5650 50  0001 C CNN
+	1    5175 5650
+	1    0    0    -1  
+$EndComp
+Text HLabel 5175 5750 3    50   UnSpc ~ 0
+BSGROUND
 $EndSCHEMATC
