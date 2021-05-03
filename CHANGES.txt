@@ -112,12 +112,22 @@ December 13, 2020 - Revision 0.1.2
             Made left side of all plugboards 1.5mm shorter (the cutout for the solenoid header is 1.5mm bigger)
                 this makes some connectors fit more comfortably
             Bumped revision number
+December 13, 2020 - Revision 0.1.3
+    user: pandrew
+        done:
             Added locklights header (this lengthens the controller a little bit, and added cutouts to the daughtercards too.)
             Bumped revision number
+December 13, 2020
+    user: pandrew
+        done:
             Updated BOM.
 January 26, 2021
     user: pandrew
         done:
             Beamship Plugboard -- added extra grounding hole.
-
-
+May 3, 2021
+    user: pandrew
+        done:
+            Updated Pro Micro schematic symbol, fixed incorrect pin names, and made it a bit more verbose.
+            Added schematics for various revisions, using the corrected Pro Micro symbol.
+            Updated version numbers in errata.

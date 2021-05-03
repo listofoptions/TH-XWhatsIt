@@ -166,26 +166,26 @@ CLOCK
 $Comp
 L promicro:ProMicro U7
 U 1 1 5E3248FF
-P 9150 3475
-F 0 "U7" H 9150 4512 60  0000 C CNN
-F 1 "ProMicro" H 9150 4406 60  0000 C CNN
-F 2 "promicro:ProMicro" H 9250 2425 60  0001 C CNN
-F 3 "" H 9250 2425 60  0000 C CNN
-	1    9150 3475
+P 9050 3475
+F 0 "U7" H 9050 4512 60  0000 C CNN
+F 1 "ProMicro" H 9050 4425 60  0000 C CNN
+F 2 "promicro:ProMicro" H 9150 2425 60  0001 C CNN
+F 3 "" H 9150 2425 60  0000 C CNN
+	1    9050 3475
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9850 2725
-Text GLabel 8450 3225 0    50   Input ~ 0
+Text GLabel 8250 3225 0    50   Input ~ 0
 ROW1
-Text GLabel 8450 3125 0    50   Input ~ 0
+Text GLabel 8250 3125 0    50   Input ~ 0
 ROW2
-Text GLabel 8450 3425 0    50   Input ~ 0
+Text GLabel 8250 3425 0    50   Input ~ 0
 ROW3
-Text GLabel 8450 3325 0    50   Input ~ 0
+Text GLabel 8250 3325 0    50   Input ~ 0
 ROW4
-Text GLabel 8450 3725 0    50   Input ~ 0
+Text GLabel 8250 3725 0    50   Input ~ 0
 ROW5
-Text GLabel 8450 3825 0    50   Input ~ 0
+Text GLabel 8250 3825 0    50   Input ~ 0
 ROW6
 Text GLabel 9850 3125 2    50   Input ~ 0
 ROW7
@@ -1033,13 +1033,13 @@ Text GLabel 7450 5225 2    50   BiDi ~ 0
 HEADER3_ENABLE
 Text GLabel 7450 5325 2    50   BiDi ~ 0
 HEADER4_TRIGGER
-Text GLabel 8450 3525 0    50   BiDi ~ 0
+Text GLabel 8250 3525 0    50   BiDi ~ 0
 HEADER1_NUMLCK
-Text GLabel 8450 3625 0    50   BiDi ~ 0
+Text GLabel 8250 3625 0    50   BiDi ~ 0
 HEADER2_CAPSLCK
-Text GLabel 8450 2725 0    50   BiDi ~ 0
+Text GLabel 8250 2725 0    50   BiDi ~ 0
 HEADER3_ENABLE
-Text GLabel 8450 2825 0    50   BiDi ~ 0
+Text GLabel 8250 2825 0    50   BiDi ~ 0
 HEADER4_TRIGGER
 Text GLabel 6950 5425 0    50   BiDi ~ 0
 HEADER2_CAPSLCK
@@ -1318,30 +1318,26 @@ $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 5F579EDB
-P 8450 2925
-F 0 "#PWR0105" H 8450 2675 50  0001 C CNN
-F 1 "GND" V 8455 2797 50  0000 R CNN
-F 2 "" H 8450 2925 50  0001 C CNN
-F 3 "" H 8450 2925 50  0001 C CNN
-	1    8450 2925
+P 8250 2925
+F 0 "#PWR0105" H 8250 2675 50  0001 C CNN
+F 1 "GND" V 8255 2797 50  0000 R CNN
+F 2 "" H 8250 2925 50  0001 C CNN
+F 3 "" H 8250 2925 50  0001 C CNN
+	1    8250 2925
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0112
 U 1 1 5F57A4BB
-P 8450 3025
-F 0 "#PWR0112" H 8450 2775 50  0001 C CNN
-F 1 "GND" V 8455 2897 50  0000 R CNN
-F 2 "" H 8450 3025 50  0001 C CNN
-F 3 "" H 8450 3025 50  0001 C CNN
-	1    8450 3025
+P 8250 3025
+F 0 "#PWR0112" H 8250 2775 50  0001 C CNN
+F 1 "GND" V 8255 2897 50  0000 R CNN
+F 2 "" H 8250 3025 50  0001 C CNN
+F 3 "" H 8250 3025 50  0001 C CNN
+	1    8250 3025
 	0    1    1    0   
 $EndComp
 Connection ~ 10425 2825
-Wire Wire Line
-	10425 2825 9850 2825
-Wire Wire Line
-	9850 3025 10425 3025
 $Comp
 L power:VCC #PWR0117
 U 1 1 5F585D6B
@@ -1684,4 +1680,8 @@ Wire Wire Line
 	8825 4700 8725 4700
 Wire Wire Line
 	8725 4800 8825 4800
+Wire Wire Line
+	9850 3025 10425 3025
+Wire Wire Line
+	9850 2825 10425 2825
 $EndSCHEMATC
