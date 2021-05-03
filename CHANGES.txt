@@ -129,3 +129,5 @@ May 3, 2021
     user: pandrew
         done:
             Updated Pro Micro schematic symbol, fixed incorrect pin names, and made it a bit more verbose.
+            Added schematics for various revisions, using the corrected Pro Micro symbol.
+            Updated version numbers in errata.
