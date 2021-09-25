@@ -1,3 +1,7 @@
+# TH-XWhatsIt
+
+![Render of the mainboard, and of the plugboards, except the beamship plugboard](render.png)
+
 through hole implementation of the capsense controllers by XWhatsIt
 (Tom Wong-Cornell). original liscencure holds, as well as CERN OSH
 (compatible license).
